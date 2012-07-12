@@ -1,0 +1,137 @@
+			.context, #contexts, #settings {
+				display: none;
+			}
+			
+			.player {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				overflow: hidden;
+				display: inline;
+			}
+			
+			.playerBkg {
+				position: absolute;
+				overflow: hidden;
+				display: none;
+			}
+			
+			.nclPlayer {
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				width: 853px;
+				height: 480px;
+			}
+		
+			#areaControle{
+				position:absolute;
+				width:134.74px;
+				height:600px;
+				top:0px;
+				left:860px;
+			}
+		
+			#areaEspacamento1{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+			
+			#areaEspacamento2{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+			
+			#areaEspacamento3{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+			
+			#areaEspacamento4{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+			
+			#areaEspacamento5{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+			
+			#areaEspacamento6{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+			
+			#areaEspacamento7{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+			
+			#areaEspacamento8{
+				position:relative;
+				background-image:url(img_control/espacamento.png);
+				height:1%;
+				width:100%;
+			}
+	
+			#areaPowerEject{
+				position:relative;
+				height:6%;
+				width:100%;
+			} 
+	
+			#areaAlfanumericos{
+				position:relative;
+				height:21%;
+				width:100%;
+			} 
+	
+			#areaVolumeChannel{
+				position:relative;
+				height:20%;
+				width:100%;
+			} 
+	
+			#areaInterativos{
+				position:relative;
+				height:21%;
+				width:100%;
+			} 
+	
+			#areaColoridos{
+				position:relative;
+				height:5%;
+				width:100%;
+			} 
+	
+			#areaMultimidia{
+				position:relative;
+				height:14%;
+				width:100%;
+			} 
+	
+			#areaLogo{
+				position:relative;
+				height:5%;
+				width:100%;
+			} 			
+			
+			#checkbox{
+				position:absolute;
+				top: 0px;
+				left: 1000px;
+			}
