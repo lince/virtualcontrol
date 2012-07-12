@@ -1,0 +1,25 @@
+.context, #contexts, #settings {
+	display: none;
+}
+		
+.player {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	display: inline;
+}
+		
+.playerBkg {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+}
+		
+.nclPlayer {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 640px;
+	height: 480px;
+}
