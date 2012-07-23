@@ -476,6 +476,140 @@ function ButtonStop(){
 	cursor: pointer;
 }
 
+#imgButtonEnterHover, #imgButtonEnterPress{
+	position: absolute;
+	width: 78px;
+	height: 56px;
+	top: 33px;
+	left: 30px;
+	cursor: pointer;
+}
+
+#imgButtonUpHover, #imgButtonUpPress{
+	position: absolute;
+	width: 59px;
+	height: 33px;
+	top: 10.5px;
+	left: 38px;
+	cursor: pointer;
+}
+
+#imgButtonDownHover, #imgButtonDownPress{
+	position: absolute;
+	width: 57.5px;
+	height: 24px;
+	top: 87.5px;
+	left: 39px;
+	cursor: pointer;
+}
+
+#imgButtonLeftHover, #imgButtonLeftPress{
+	position: absolute;
+	width: 30px;
+	height: 58px;
+	top: 34px;
+	left: 16px;
+	cursor: pointer;
+}
+
+#imgButtonRightHover, #imgButtonRightPress{
+	position: absolute;
+	width: 27px;
+	height: 59px;
+	top: 34px;
+	left: 90px;
+	cursor: pointer;
+}
+
+#imgButtonRedHover, #imgButtonRedPress{
+	position: absolute;
+	width: 22px;
+	height: 21px;
+	top: 4px;
+	left: 14px;
+	cursor: pointer;
+}
+
+#imgButtonGreenHover, #imgButtonGreenPress{
+	position: absolute;
+	width: 39px;
+	height: 26px;
+	top: 1px;
+	left: 33.5px;
+	cursor: pointer;
+}
+
+#imgButtonYellowHover, #imgButtonYellowPress{
+	position: absolute;
+	width: 22px;
+	height: 21px;
+	top: 4px;
+	left: 70px;
+	cursor: pointer;
+}
+
+#imgButtonBlueHover, #imgButtonBluePress{
+	position: absolute;
+	width: 40px;
+	height: 27px;
+	top: 0px;
+	left: 90px;
+	cursor: pointer;
+}
+
+#imgButtonRewindHover, #imgButtonRewindPress{
+	position: absolute;
+	width: 32px;
+	height: 27px;
+	top: 10px;
+	left: 11.5px;
+	cursor: pointer;
+}
+
+#imgButtonPlayHover, #imgButtonPlayPress{
+	position: absolute;
+	width: 65px;
+	height: 47px;
+	top: -1px;
+	left: 35px;
+	cursor: pointer;
+}
+
+#imgButtonForwardHover, #imgButtonForwardPress{
+	position: absolute;
+	width: 49px;
+	height: 34px;
+	top: 6px;
+	left: 84px;
+	cursor: pointer;
+}
+
+#imgButtonPauseHover, #imgButtonPausePress{
+	position: absolute;
+	width: 45px;
+	height: 34px;
+	top: 46px;
+	left: 45px;
+	cursor: pointer;
+}
+
+#imgButtonRecHover, #imgButtonRecPress{
+	position: absolute;
+	width: 26px;
+	height: 27px;
+	top: 52px;
+	left: 16px;
+	cursor: pointer;
+}
+
+#imgButtonStopHover, #imgButtonStopPress{
+	position: absolute;
+	width: 26px;
+	height: 27px;
+	top: 52px;
+	left: 93px;
+	cursor: pointer;
+}
 
 
 
@@ -600,18 +734,28 @@ function ButtonStop(){
     <img src="imgs pequenas/Botoes/press/png/Exit.png" width="55" height="41" id="imgButtonExitPress" />
     <img src="imgs pequenas/Botoes/hover/png/Back.png" width="55" height="41" id="imgButtonBackHover" />
     <img src="imgs pequenas/Botoes/press/png/Back.png" width="55" height="41" id="imgButtonBackPress" />
-    
+    <img src="imgs pequenas/Botoes/hover/png/Enter.png" width="55" height="41" id="imgButtonEnterHover" />
+    <img src="imgs pequenas/Botoes/press/png/Enter.png" width="55" height="41" id="imgButtonEnterPress" />
+    <img src="imgs pequenas/Botoes/hover/png/Up.png" width="55" height="41" id="imgButtonUpHover" />
+    <img src="imgs pequenas/Botoes/press/png/Up.png" width="55" height="41" id="imgButtonUpPress" />
+    <img src="imgs pequenas/Botoes/hover/png/Down.png" width="55" height="41" id="imgButtonDownHover" />
+    <img src="imgs pequenas/Botoes/press/png/Down.png" width="55" height="41" id="imgButtonDownPress" />
+    <img src="imgs pequenas/Botoes/hover/png/Left.png" width="55" height="41" id="imgButtonLeftHover" />
+    <img src="imgs pequenas/Botoes/press/png/Left.png" width="55" height="41" id="imgButtonLeftPress" />
+    <img src="imgs pequenas/Botoes/hover/png/Right.png" width="55" height="41" id="imgButtonRightHover" />
+    <img src="imgs pequenas/Botoes/press/png/Right.png" width="55" height="41" id="imgButtonRightPress" />
+        
     <img src="imgs%20pequenas/interativos.png" width="100%" height="100%" usemap="#Map4" border="0" />
         <map name="Map4" id="Map4">
           <area shape="circle" coords="25,17,13" href="#" id="areaButtonInfo" />
           <area shape="circle" coords="109,17,13" href="#" id="areaButtonGuide" />
           <area shape="circle" coords="26,108,13" href="#" id="areaButtonExit" />
           <area shape="circle" coords="109,109,13" href="#" id="areaButtonBack" />
-          <area shape="circle" coords="67,63,22" href="#" onclick="ButtonEnter()" />
-          <area shape="poly" coords="93,48,96,56,96,63,95,70,92,78,105,90,110,82,112,73,113,65,113,55,110,46,104,36,93,47" href="#" onclick="ButtonRight()" />
-          <area shape="poly" coords="52,36,57,33,65,31,73,32,81,35,93,24,86,19,77,15,67,14,59,16,51,18,40,23,52,36" href="#" onclick="ButtonUp()" />
-          <area shape="poly" coords="40,48,38,56,37,62,38,70,41,78,28,90,23,82,21,72,20,63,21,54,23,46,30,36" href="#" onclick="ButtonLeft()" />
-          <area shape="poly" coords="53,89,58,92,66,93,73,92,81,89,92,102,85,106,77,109,67,111,60,111,51,108,40,101,51,89" href="#" onclick="ButtonDown()" />
+          <area shape="circle" coords="67,63,22" href="#" id="areaButtonEnter" />
+          <area shape="poly" coords="93,48,96,56,96,63,95,70,92,78,105,90,110,82,112,73,113,65,113,55,110,46,104,36,93,47" href="#" id="areaButtonRight" />
+          <area shape="poly" coords="52,36,57,33,65,31,73,32,81,35,93,24,86,19,77,15,67,14,59,16,51,18,40,23,52,36" href="#" id="areaButtonUp" />
+          <area shape="poly" coords="40,48,38,56,37,62,38,70,41,78,28,90,23,82,21,72,20,63,21,54,23,46,30,36" href="#" id="areaButtonLeft" />
+          <area shape="poly" coords="53,89,58,92,66,93,73,92,81,89,92,102,85,106,77,109,67,111,60,111,51,108,40,101,51,89" href="#" id="areaButtonDown" />
         </map> 
     </div>
     
@@ -619,12 +763,22 @@ function ButtonStop(){
     </div>
     
     <div id="areaColoridos">
+    
+        <img src="imgs pequenas/Botoes/hover/png/Red.png" width="55" height="41" id="imgButtonRedHover" />
+    	<img src="imgs pequenas/Botoes/press/png/Red.png" width="55" height="41" id="imgButtonRedPress" />
+        <img src="imgs pequenas/Botoes/hover/png/Green.png" width="55" height="41" id="imgButtonGreenHover" />
+    	<img src="imgs pequenas/Botoes/press/png/Green.png" width="55" height="41" id="imgButtonGreenPress" />
+        <img src="imgs pequenas/Botoes/hover/png/Yellow.png" width="55" height="41" id="imgButtonYellowHover" />
+    	<img src="imgs pequenas/Botoes/press/png/Yellow.png" width="55" height="41" id="imgButtonYellowPress" />
+        <img src="imgs pequenas/Botoes/hover/png/Blue.png" width="55" height="41" id="imgButtonBlueHover" />
+    	<img src="imgs pequenas/Botoes/press/png/Blue.png" width="55" height="41" id="imgButtonBluePress" />
+                            
     	<img src="imgs%20pequenas/coloridos.png" width="100%" height="100%" usemap="#Map5" border="0" />
         <map name="Map5" id="Map5">
-          <area shape="circle" coords="25,14,11" href="#" onclick="ButtonRed()"/>
-          <area shape="rect" coords="97,3,120,27" href="#" onclick="ButtonBlue()" />
-          <area shape="poly" coords="43,14,53,26,64,15,53,4" href="#" onclick="ButtonGreen()" />
-          <area shape="poly" coords="71,24,90,24,80,4,70,24" href="#" onclick="ButtonYellow()" />
+          <area shape="circle" coords="25,14,11" href="#" id="areaButtonRed"/>
+          <area shape="rect" coords="97,3,120,27" href="#" id="areaButtonBlue" />
+          <area shape="poly" coords="43,14,53,26,64,15,53,4" href="#" id="areaButtonGreen" />
+          <area shape="poly" coords="71,24,90,24,80,4,70,24" href="#" id="areaButtonYellow" />
         </map>
     </div> 
     
@@ -632,14 +786,28 @@ function ButtonStop(){
     </div>
     
    	<div id="areaMultimidia">
+    
+      <img src="imgs pequenas/Botoes/hover/png/Rewind.png" width="55" height="41" id="imgButtonRewindHover" />    
+      <img src="imgs pequenas/Botoes/press/png/Rewind.png" width="55" height="41" id="imgButtonRewindPress" /> 
+      <img src="imgs pequenas/Botoes/hover/png/Play.png" width="55" height="41" id="imgButtonPlayHover" />    
+      <img src="imgs pequenas/Botoes/press/png/Play.png" width="55" height="41" id="imgButtonPlayPress" /> 
+      <img src="imgs pequenas/Botoes/hover/png/Forward.png" width="55" height="41" id="imgButtonForwardHover" />    
+      <img src="imgs pequenas/Botoes/press/png/Forward.png" width="55" height="41" id="imgButtonForwardPress" /> 
+      <img src="imgs pequenas/Botoes/hover/png/Pause.png" width="55" height="41" id="imgButtonPauseHover" />    
+      <img src="imgs pequenas/Botoes/press/png/Pause.png" width="55" height="41" id="imgButtonPausePress" /> 
+      <img src="imgs pequenas/Botoes/hover/png/Rec.png" width="55" height="41" id="imgButtonRecHover" />    
+      <img src="imgs pequenas/Botoes/press/png/Rec.png" width="55" height="41" id="imgButtonRecPress" /> 
+      <img src="imgs pequenas/Botoes/hover/png/Stop.png" width="55" height="41" id="imgButtonStopHover" />    
+      <img src="imgs pequenas/Botoes/press/png/Stop.png" width="55" height="41" id="imgButtonStopPress" /> 
+           
     	<img src="imgs%20pequenas/multimidia.png" width="100%" height="100%" usemap="#Map6" border="0" />
         <map name="Map6" id="Map6">
-          <area shape="poly" coords="43,35,42,8,32,15,31,9,11,23,31,36,31,27,40,36" href="#" onclick="ButtonRewind()"/>
-          <area shape="poly" coords="104,38,122,24,103,10,103,18,91,10,92,38,102,27,103,37" href="#" onclick="ButtonForward()"/>
-          <area shape="poly" coords="58,42,57,4,80,23,60,42" href="#" onclick="ButtonPlay()" />
-          <area shape="circle" coords="29,65,14" href="#" onclick="ButtonRec()" />
-          <area shape="rect" coords="92,51,119,79" href="#" onclick="ButtonStop()" />
-          <area shape="rect" coords="57,52,76,78" href="#" onclick="ButtonPause()" />
+          <area shape="poly" coords="43,35,42,8,32,15,31,9,11,23,31,36,31,27,40,36" href="#" id="areaButtonRewind" />
+          <area shape="poly" coords="104,38,122,24,103,10,103,18,91,10,92,38,102,27,103,37" href="#" id="areaButtonForward" />
+          <area shape="poly" coords="58,42,57,4,80,23,60,42" href="#" id="areaButtonPlay" />
+          <area shape="circle" coords="29,65,14" href="#" id="areaButtonRec" />
+          <area shape="rect" coords="92,51,119,79" href="#" id="areaButtonStop" />
+          <area shape="rect" coords="57,52,76,78" href="#" id="areaButtonPause" />
         </map>
     </div> 
     
@@ -668,7 +836,7 @@ function ButtonStop(){
 
 			
 			
-		var imgButtons = ['ButtonEject', 'ButtonPower', 'ButtonKey_1', 'ButtonKey_2', 'ButtonKey_3', 'ButtonKey_4', 'ButtonKey_5', 'ButtonKey_6', 'ButtonKey_7', 'ButtonKey_8', 'ButtonKey_9', 'ButtonKey_Hash', 'ButtonKey_0', 'ButtonKey_Star', 'ButtonVolume_Up', 'ButtonChannel_Up', 'ButtonVolume_Down', 'ButtonChannel_Down', 'ButtonMenu', 'ButtonMute', 'ButtonHelp', 'ButtonInfo','ButtonGuide', 'ButtonExit', 'ButtonBack'];
+		var imgButtons = ['ButtonEject', 'ButtonPower', 'ButtonKey_1', 'ButtonKey_2', 'ButtonKey_3', 'ButtonKey_4', 'ButtonKey_5', 'ButtonKey_6', 'ButtonKey_7', 'ButtonKey_8', 'ButtonKey_9', 'ButtonKey_Hash', 'ButtonKey_0', 'ButtonKey_Star', 'ButtonVolume_Up', 'ButtonChannel_Up', 'ButtonVolume_Down', 'ButtonChannel_Down', 'ButtonMenu', 'ButtonMute', 'ButtonHelp', 'ButtonInfo','ButtonGuide', 'ButtonExit', 'ButtonBack', 'ButtonEnter', 'ButtonUp', 'ButtonDown', 'ButtonLeft', 'ButtonRight', 'ButtonRed', 'ButtonGreen', 'ButtonYellow', 'ButtonBlue', 'ButtonRewind', 'ButtonPlay', 'ButtonForward', 'ButtonPause', 'ButtonRec', 'ButtonStop'];
 		
 		for(button in imgButtons)
 		{	
