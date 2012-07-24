@@ -4,58 +4,56 @@
 
 		/*Classe Controle:*/
 
-		function Controle(player, divId, p_areaPowerEject, p_areaAlfanumericos, p_areaVolumeChannel, p_areaInterativos, p_areaColoridos, p_areaMultimidia, p_areaLogo) 
+		function RemoteControl(player, divId, p_areaPowerEject, p_areaNumbers, p_areaVolumeChannel, p_areaInteractive, p_areaColorful, p_areaMultimedia, p_areaLogo) 
 		{
 				this.player = player;
 				this.divId = divId;
 				this.p_areaPowerEject = p_areaPowerEject;
-				this.p_areaAlfanumericos = p_areaAlfanumericos;
+				this.p_areaNumbers = p_areaNumbers;
 				this.p_areaVolumeChannel = p_areaVolumeChannel;
-				this.p_areaInterativos = p_areaInterativos;
-				this.p_areaColoridos = p_areaColoridos;
-				this.p_areaMultimidia = p_areaMultimidia;
+				this.p_areaInteractive = p_areaInteractive;
+				this.p_areaColorful = p_areaColorful;
+				this.p_areaMultimedia = p_areaMultimedia;
 				this.p_areaLogo = p_areaLogo;
 
 
 				//flags para controle visual de cada área
 				var controlPowerEject = 0;
-				var controlAlfanumericos = 0;
+				var controlNumbers = 0;
 				var controlVolumeChannel = 0;
-				var controlInterativos = 0;
-				var controlColoridos = 0;
-				var controlMultimidia = 0;
+				var controlInteractive = 0;
+				var controlColorful = 0;
+				var controlMultimedia = 0;
 				var controlLogo = 0;
 
 
-				//Ao criar um objeto Controle todas as áreas serao criadas...
-				document.getElementById(this.divId).innerHTML = "<div id=\"areaEspacamento1\">"+
+				//Ao criar um objeto Controle todas as áreas e botões serão criados...
+				document.getElementById(this.divId).innerHTML = "<div id=\"areaSpace1\">"+
 																"</div>"+
 
 
-					"<div id=\"areaPowerEject\">"+
-					
+					"<div id=\"areaPowerEject\">"+					
 						"<img src=\"img_control/Buttons/hover/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectPress\">"+
 						
-						"<img src=\"img_control/power+eject.png\" width=\"100%\" height=\"100%\" usemap=\"#Map\" border=\"0\" />"+
+						"<img src=\"img_control/power_eject.png\" width=\"100%\" height=\"100%\" usemap=\"#Map\" border=\"0\" />"+
 						"<map name=\"Map\" id=\"Map\">"+
 						  "<area shape=\"circle\" coords=\"26,19,15\" href=\"#\"  id=\"areaButtonPower\" />"+
 						  "<area shape=\"circle\" coords=\"111,22,11\" href=\"#\" id=\"areaButtonEject\" />"+
 						"</map>"+
 					"</div>"+	
 
-					"<div id=\"areaEspacamento2\">"+ 
+					"<div id=\"areaSpace2\">"+ 
 					"</div>"+  
 
-					"<div id=\"areaAlfanumericos\">"+
-					
+					"<div id=\"areaNumbers\">"+					
 						"<img src=\"img_control/Buttons/hover/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Hover\">"+
 						"<img src=\"img_control/Buttons/press/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Press\">"+
 						"<img src=\"img_control/Buttons/hover/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Hover\">"+
 						"<img src=\"img_control/Buttons/press/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_3.png\" width=\"55\" height=\"41\"		id=\"imgButtonKey_3Hover\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_3.png\" width=\"55\" height=\"41\"	id=\"imgButtonKey_3Hover\">"+
 						"<img src=\"img_control/Buttons/press/png/Key_3.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_3Press\">"+
 						"<img src=\"img_control/Buttons/hover/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Hover\">"+
 						"<img src=\"img_control/Buttons/press/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Press\">"+						
@@ -69,14 +67,14 @@
 						"<img src=\"img_control/Buttons/press/png/Key_8.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_8Press\">"+						
 						"<img src=\"img_control/Buttons/hover/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Hover\">"+
 						"<img src=\"img_control/Buttons/press/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_Hash.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_HashHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_Hash.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_HashPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_Hash.png\" width=\"55\" height=\"41\" id=\"imgButtonKey_HashHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_Hash.png\" width=\"55\" height=\"41\"	id=\"imgButtonKey_HashPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Hover\">"+
 						"<img src=\"img_control/Buttons/press/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_Star.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_StarHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_Star.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_StarPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_Star.png\" width=\"55\" height=\"41\" id=\"imgButtonKey_StarHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_Star.png\" width=\"55\" height=\"41\" id=\"imgButtonKey_StarPress\">"+
 												
-						"<img src=\"img_control/alfanumericos.png\" width=\"100%\" height=\"100%\" usemap=\"#Map2\" border=\"0\" />"+
+						"<img src=\"img_control/numbers.png\" width=\"100%\" height=\"100%\" usemap=\"#Map2\" border=\"0\" />"+
 						"<map name=\"Map2\" id=\"Map2\">"+
 						  "<area shape=\"rect\" coords=\"12,4,44,29\" href=\"#\"    id=\"areaButtonKey_1\" />"+
 						  "<area shape=\"rect\" coords=\"50,4,82,29\" href=\"#\"    id=\"areaButtonKey_2\" />"+
@@ -93,11 +91,10 @@
 						"</map>"+
 					"</div>"+
 
-					"<div id=\"areaEspacamento3\">"+
+					"<div id=\"areaSpace3\">"+
 					"</div>"+ 
 
-					"<div id=\"areaVolumeChannel\">"+
-					
+					"<div id=\"areaVolumeChannel\">"+					
 						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_UpHover\">"+
@@ -106,14 +103,14 @@
 						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_DownPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Menu.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMenuHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Menu.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMenuPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Mute.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMuteHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Mute.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMutePress\">"+	
-						"<img src=\"img_control/Buttons/hover/png/Help.png\" width=\"55\" height=\"41\" 			id=\"imgButtonHelpHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Help.png\" width=\"55\" height=\"41\" 			id=\"imgButtonHelpPress\">"+					
+						"<img src=\"img_control/Buttons/hover/png/Menu.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMenuHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Menu.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMenuPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Mute.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMuteHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Mute.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMutePress\">"+	
+						"<img src=\"img_control/Buttons/hover/png/Help.png\" width=\"55\" height=\"41\" 		id=\"imgButtonHelpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Help.png\" width=\"55\" height=\"41\" 		id=\"imgButtonHelpPress\">"+					
 					
-						"<img src=\"img_control/volume+channel.png\" width=\"100%\" height=\"100%\" usemap=\"#Map3\" border=\"0\" />"+
+						"<img src=\"img_control/volume_channel.png\" width=\"100%\" height=\"100%\" usemap=\"#Map3\" border=\"0\" />"+
 						"<map name=\"Map3\" id=\"Map3\">"+
 						  "<area shape=\"rect\" coords=\"49,18,82,55\" href=\"#\"         id=\"areaButtonMenu\" />"+
 						  "<area shape=\"rect\" coords=\"11,84,40,117\" href=\"#\"        id=\"areaButtonMute\"/>"+
@@ -125,31 +122,30 @@
 						"</map>"+ 
 					"</div>"+
 
-					"<div id=\"areaEspacamento4\">"+
+					"<div id=\"areaSpace4\">"+
 					"</div>"+
 
-					"<div id=\"areaInterativos\">"+
-					
+					"<div id=\"areaInteractive\">"+					
 						"<img src=\"img_control/Buttons/hover/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Guide.png\" width=\"55\" height=\"41\"		id=\"imgButtonGuideHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Guide.png\" width=\"55\" height=\"41\" 	id=\"imgButtonGuidePress\">"+
+						"<img src=\"img_control/Buttons/press/png/Guide.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGuidePress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackPress\">"+						
-						"<img src=\"img_control/Buttons/hover/png/Enter.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEnterHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Enter.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEnterPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Up.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_UpHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Up.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_UpPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Down.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_DownHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Down.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_DownPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Left.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_LeftHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Left.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_LeftPress\">"+						
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Right.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_RightHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Right.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_RightPress\">"+					
+						"<img src=\"img_control/Buttons/hover/png/Enter.png\" width=\"55\" height=\"41\" 		id=\"imgButtonEnterHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Enter.png\" width=\"55\" height=\"41\" 		id=\"imgButtonEnterPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_UpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_UpPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_DownHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_DownPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Left.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_LeftHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Left.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_LeftPress\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Right.png\" width=\"55\" height=\"41\" id=\"imgButtonCursor_RightHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Right.png\" width=\"55\" height=\"41\" id=\"imgButtonCursor_RightPress\">"+					
 					
-						"<img src=\"img_control/interativos.png\" width=\"100%\" height=\"100%\" usemap=\"#Map4\" border=\"0\" />"+
+						"<img src=\"img_control/interactive.png\" width=\"100%\" height=\"100%\" usemap=\"#Map4\" border=\"0\" />"+
 						"<map name=\"Map4\" id=\"Map4\">"+
 						  "<area shape=\"circle\" coords=\"25,17,13\" href=\"#\"   id=\"areaButtonInfo\" />"+
 						  "<area shape=\"circle\" coords=\"109,17,13\" href=\"#\"  id=\"areaButtonGuide\" />"+
@@ -163,21 +159,20 @@
 						"</map>"+ 
 					"</div>"+
 
-					"<div id=\"areaEspacamento5\">"+
+					"<div id=\"areaSpace5\">"+
 					"</div>"+
 
-					"<div id=\"areaColoridos\">"+
-					
+					"<div id=\"areaColorful\">"+					
 						"<img src=\"img_control/Buttons/hover/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Yellow.png\" width=\"55\" height=\"41\"		id=\"imgButtonYellowHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Yellow.png\" width=\"55\" height=\"41\" 		id=\"imgButtonYellowPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Blue.png\" width=\"55\" height=\"41\" 			id=\"imgButtonBlueHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Blue.png\" width=\"55\" height=\"41\" 			id=\"imgButtonBluePress\">"+		
+						"<img src=\"img_control/Buttons/hover/png/Blue.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBlueHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Blue.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBluePress\">"+		
 					
-						"<img src=\"img_control/coloridos.png\" width=\"100%\" height=\"100%\" usemap=\"#Map5\" border=\"0\" />"+
+						"<img src=\"img_control/colorful.png\" width=\"100%\" height=\"100%\" usemap=\"#Map5\" border=\"0\" />"+
 						"<map name=\"Map5\" id=\"Map5\">"+
 						  "<area shape=\"circle\" coords=\"25,14,11\" href=\"#\"             id=\"areaButtonRed\"/>"+
 						  "<area shape=\"rect\" coords=\"97,3,120,27\" href=\"#\"            id=\"areaButtonBlue\" />"+
@@ -186,25 +181,24 @@
 						"</map>"+
 					"</div>"+ 
 
-					"<div id=\"areaEspacamento6\">"+
+					"<div id=\"areaSpace6\">"+
 					"</div>"+
 
-					"<div id=\"areaMultimidia\">"+
-					
+					"<div id=\"areaMultimedia\">"+					
 						"<img src=\"img_control/Buttons/hover/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Play.png\" width=\"55\" height=\"41\" 		id=\"imgButtonPlayHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Play.png\" width=\"55\" height=\"41\" 		id=\"imgButtonPlayPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Play.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPlayHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Play.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPlayPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Rewind.png\" width=\"55\" height=\"41\"	id=\"imgButtonRewindHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Rewind.png\" width=\"55\" height=\"41\" 	id=\"imgButtonRewindPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecPress\">"+
 						"<img src=\"img_control/Buttons/hover/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPauseHover\">"+
 						"<img src=\"img_control/Buttons/press/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPausePress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Stop.png\" width=\"55\" height=\"41\" 		id=\"imgButtonStopHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Stop.png\" width=\"55\" height=\"41\" 		id=\"imgButtonStopPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Stop.png\" width=\"55\" height=\"41\" 	id=\"imgButtonStopHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Stop.png\" width=\"55\" height=\"41\" 	id=\"imgButtonStopPress\">"+
 					
-						"<img src=\"img_control/multimidia.png\" width=\"100%\" height=\"100%\" usemap=\"#Map6\" border=\"0\" />"+
+						"<img src=\"img_control/multimedia.png\" width=\"100%\" height=\"100%\" usemap=\"#Map6\" border=\"0\" />"+
 						"<map name=\"Map6\" id=\"Map6\">"+
 						  "<area shape=\"poly\" coords=\"43,35,42,8,32,15,31,9,11,23,31,36,31,27,40,36\" href=\"#\"         id=\"areaButtonRewind\"/>"+
 						  "<area shape=\"poly\" coords=\"104,38,122,24,103,10,103,18,91,10,92,38,102,27,103,37\" href=\"#\" id=\"areaButtonForward\"/>"+
@@ -215,32 +209,32 @@
 						"</map>"+
 					"</div>"+ 
 
-					"<div id=\"areaEspacamento7\">"+
+					"<div id=\"areaSpace7\">"+
 					"</div>"+
 
 					"<div id=\"areaLogo\">"+
 						"<img src=\"img_control/logo.png\" width=\"100%\" height=\"100%\" />"+
 					"</div>"+ 
 
-					"<div id=\"areaEspacamento8\">"+
+					"<div id=\"areaSpace8\">"+
 					"</div>";
 					
-				//... porém as áreas iniciarao escondidas
-				$('#areaEspacamento1').hide();
+				//... porém iniciarão todos escondidos:
+				$('#areaSpace1').hide();
 				$('#areaPowerEject').hide();
-				$('#areaEspacamento2').hide();
-				$('#areaAlfanumericos').hide();
-				$('#areaEspacamento3').hide();
+				$('#areaSpace2').hide();
+				$('#areaNumbers').hide();
+				$('#areaSpace3').hide();
 				$('#areaVolumeChannel').hide();
-				$('#areaEspacamento4').hide();
-				$('#areaInterativos').hide();
-				$('#areaEspacamento5').hide();
-				$('#areaColoridos').hide();
-				$('#areaEspacamento6').hide();
-				$('#areaMultimidia').hide();
-				$('#areaEspacamento7').hide();
+				$('#areaSpace4').hide();
+				$('#areaInteractive').hide();
+				$('#areaSpace5').hide();
+				$('#areaColorful').hide();
+				$('#areaSpace6').hide();
+				$('#areaMultimedia').hide();
+				$('#areaSpace7').hide();
 				$('#areaLogo').hide();
-				$('#areaEspacamento8').hide();
+				$('#areaSpace8').hide();
 				
 				
 				//Chamadas para o evento click de cada botão:	
@@ -329,116 +323,117 @@
 						'$("#img" + imgButtons[' + button + '] + "Hover").show();'+
 						'});'
 					);
+					
 				}
 	
 					
 			}
 	
 			//Para visualizar a área PowerEject(mesma lógica para as demais áreas)
-			Controle.prototype.setAreaPowerEject = function(p_areaPowerEject){
+			RemoteControl.prototype.setAreaPowerEject = function(p_areaPowerEject){
 					if(p_areaPowerEject){
 	
 						//sinaliza a flag de controle da área
 						this.controlPowerEject = !(this.controlPowerEject);
 	
 						//a área sempre será visualizada juntamente com o seu espaçamento acima
-						$('#areaEspacamento1').toggle();
+						$('#areaSpace1').toggle();
 						$('#areaPowerEject').toggle();
 	
 						//o último espaçamento será visível enquanto qualquer outra área for visível
-						if((this.controlPowerEject)||(this.controlAlfanumericos)||(this.controlVolumeChannel)||(this.controlInterativos)||(this.controlColoridos)||(this.controlMultimidia)||(this.controlLogo))
-							$('#areaEspacamento8').show();
+						if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+							$('#areaSpace8').show();
 						else
-							$('#areaEspacamento8').hide();
+							$('#areaSpace8').hide();
 					}
 		}
 
-		Controle.prototype.setAreaAlfanumericos = function(p_areaAlfanumericos){				
-				if(p_areaAlfanumericos){
-					this.controlAlfanumericos = !(this.controlAlfanumericos);
+		RemoteControl.prototype.setAreaNumbers = function(p_areaNumbers){				
+				if(p_areaNumbers){
+					this.controlNumbers = !(this.controlNumbers);
 
-					$('#areaEspacamento2').toggle();
-					$('#areaAlfanumericos').toggle();
+					$('#areaSpace2').toggle();
+					$('#areaNumbers').toggle();
 
-					if((this.controlPowerEject)||(this.controlAlfanumericos)||(this.controlVolumeChannel)||(this.controlInterativos)||(this.controlColoridos)||(this.controlMultimidia)||(this.controlLogo))
-						$('#areaEspacamento8').show();
+					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+						$('#areaSpace8').show();
 					else
-						$('#areaEspacamento8').hide();
+						$('#areaSpace8').hide();
 				}
 		}
 
-		Controle.prototype.setAreaVolumeChannel = function(p_areaVolumeChannel){
+		RemoteControl.prototype.setAreaVolumeChannel = function(p_areaVolumeChannel){
 				if(p_areaVolumeChannel){
 					this.controlVolumeChannel = !(this.controlVolumeChannel);
 
-					$('#areaEspacamento3').toggle();
+					$('#areaSpace3').toggle();
 					$('#areaVolumeChannel').toggle();
 
-					if((this.controlPowerEject)||(this.controlAlfanumericos)||(this.controlVolumeChannel)||(this.controlInterativos)||(this.controlColoridos)||(this.controlMultimidia)||(this.controlLogo))
-						$('#areaEspacamento8').show();
+					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+						$('#areaSpace8').show();
 					else
-						$('#areaEspacamento8').hide();
+						$('#areaSpace8').hide();
 				}
 		}
 
-		Controle.prototype.setAreaInterativos = function(p_areaInterativos){
-				if(p_areaInterativos){
-					this.controlInterativos = !(this.controlInterativos);
+		RemoteControl.prototype.setAreaInteractive = function(p_areaInteractive){
+				if(p_areaInteractive){
+					this.controlInteractive = !(this.controlInteractive);
 
-					$('#areaEspacamento4').toggle();
-					$('#areaInterativos').toggle();
+					$('#areaSpace4').toggle();
+					$('#areaInteractive').toggle();
 
-					if((this.controlPowerEject)||(this.controlAlfanumericos)||(this.controlVolumeChannel)||(this.controlInterativos)||(this.controlColoridos)||(this.controlMultimidia)||(this.controlLogo))
-						$('#areaEspacamento8').show();
+					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+						$('#areaSpace8').show();
 					else
-						$('#areaEspacamento8').hide();
+						$('#areaSpace8').hide();
 				}
 		}
 
-		Controle.prototype.setAreaColoridos = function(p_areaColoridos){
-				if(p_areaColoridos){
-					this.controlColoridos = !(this.controlColoridos);
+		RemoteControl.prototype.setAreaColorful = function(p_areaColorful){
+				if(p_areaColorful){
+					this.controlColorful = !(this.controlColorful);
 
-					$('#areaEspacamento5').toggle();
-					$('#areaColoridos').toggle();
+					$('#areaSpace5').toggle();
+					$('#areaColorful').toggle();
 
-					if((this.controlPowerEject)||(this.controlAlfanumericos)||(this.controlVolumeChannel)||(this.controlInterativos)||(this.controlColoridos)||(this.controlMultimidia)||(this.controlLogo))
-						$('#areaEspacamento8').show();
+					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+						$('#areaSpace8').show();
 					else
-						$('#areaEspacamento8').hide();
+						$('#areaSpace8').hide();
 				}
 		}
 
-		Controle.prototype.setAreaMultimidia = function(p_areaMultimidia){
-				if(p_areaMultimidia){
-					this.controlMultimidia = !(this.controlMultimidia);
+		RemoteControl.prototype.setAreaMultimedia = function(p_areaMultimedia){
+				if(p_areaMultimedia){
+					this.controlMultimedia = !(this.controlMultimedia);
 
-					$('#areaEspacamento6').toggle();
-					$('#areaMultimidia').toggle();
+					$('#areaSpace6').toggle();
+					$('#areaMultimedia').toggle();
 
-					if((this.controlPowerEject)||(this.controlAlfanumericos)||(this.controlVolumeChannel)||(this.controlInterativos)||(this.controlColoridos)||(this.controlMultimidia)||(this.controlLogo))
-						$('#areaEspacamento8').show();
+					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+						$('#areaSpace8').show();
 					else
-						$('#areaEspacamento8').hide();
+						$('#areaSpace8').hide();
 				}
 		}
 
-		Controle.prototype.setAreaLogo = function(p_areaLogo){
+		RemoteControl.prototype.setAreaLogo = function(p_areaLogo){
 				if(p_areaLogo){
 					this.controlLogo = !(this.controlLogo);
 
-					$('#areaEspacamento7').toggle();
+					$('#areaSpace7').toggle();
 					$('#areaLogo').toggle();
 
-					if((this.controlPowerEject)||(this.controlAlfanumericos)||(this.controlVolumeChannel)||(this.controlInterativos)||(this.controlColoridos)||(this.controlMultimidia)||(this.controlLogo))
-						$('#areaEspacamento8').show();
+					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+						$('#areaSpace8').show();
 					else
-						$('#areaEspacamento8').hide();
+						$('#areaSpace8').hide();
 				}
 		}
 		
 		
-		Controle.prototype.Button = function(b){
+		RemoteControl.prototype.Button = function(b){
 			if((b!="CURSOR_UP")&&(b!="CURSOR_DOWN")&&(b!="CURSOR_LEFT")&&(b!="CURSOR_RIGHT")&&(b!="ENTER")&&(b!="GREEN")&&(b!="YELLOW")&&(b!="RED")&&(b!="BLUE"))
 				alert("Botao " + b + " clicado!");
 			else
@@ -446,7 +441,7 @@
 
 		}
 		
-		Controle.prototype.Button2 = function(b){
+		RemoteControl.prototype.Button2 = function(b){
 			$('#areaPlayer2').toggle();
 
 		}
