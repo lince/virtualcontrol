@@ -17,7 +17,7 @@
 			}
 
 			.nclPlayer {
-				position: fixed;
+				position: absolute; /*change this*/
 				left: 0px;
 				top: 0px;
 				width: 853px;
@@ -132,127 +132,127 @@
 			
 			#imgButtonPowerHover, #imgButtonPowerPress{
 				position: absolute;
-				width: 28px;
-				height: 28px;
-				top: 5px;
+				width: 29px;
+				height: 27px;
+				top: 6px;
 				left:12px;
 				cursor:pointer;
 			}
 			
 			#imgButtonEjectHover, #imgButtonEjectPress{
 				position: absolute;
-				width: 38px;
-				height: 28px;
-				top: 7px;
-				left:93px;
+				width: 20px;
+				height: 20px;
+				top: 13px;
+				left:102px;
 				cursor:pointer;
 			}
 			
 			#imgButtonKey_1Hover, #imgButtonKey_1Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 2px;
-	left:11px;
+	width: 30px;
+	height: 24px;
+	top: 4px;
+	left:12px;
 	cursor:pointer;
 }
 
 #imgButtonKey_2Hover, #imgButtonKey_2Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 2px;
-	left:51px;
+	width: 30px;
+	height: 24px;
+	top: 4.5px;
+	left:52.5px;
 	cursor:pointer;
 }
 
 #imgButtonKey_3Hover, #imgButtonKey_3Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 2px;
-	left:92.5px;
+	width: 30px;
+	height: 24px;
+	top: 4.5px;
+	left:94px;
 	cursor:pointer;
 }
 
 #imgButtonKey_4Hover, #imgButtonKey_4Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 33px;
-	left:11px;
+	width: 30px;
+	height: 24px;
+	top: 35.5px;
+	left:12px;
 	cursor:pointer;
 }
 
 #imgButtonKey_5Hover, #imgButtonKey_5Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 33px;
-	left:51px;
+	width: 30px;
+	height: 24px;
+	top: 35.5px;
+	left:52.5px;
 	cursor:pointer;
 }
 
 #imgButtonKey_6Hover, #imgButtonKey_6Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 33px;
-	left:92.5px;
+	width: 30px;
+	height: 24px;
+	top: 35.5px;
+	left:94px;
 	cursor:pointer;
 }
 
 #imgButtonKey_7Hover, #imgButtonKey_7Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 65px;
-	left:11px;
+	width: 30px;
+	height: 24px;
+	top: 67px;
+	left:12px;
 	cursor:pointer;
 }
 
 #imgButtonKey_8Hover, #imgButtonKey_8Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 65px;
-	left:51px;
+	width: 30px;
+	height: 24px;
+	top: 67px;
+	left:52.5px;
 	cursor:pointer;
 }
 
 #imgButtonKey_9Hover, #imgButtonKey_9Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 65px;
-	left:92.5px;
+	width: 30px;
+	height: 24px;
+	top: 67px;
+	left:94px;
 	cursor:pointer;
 }
 
 #imgButtonKey_HashHover, #imgButtonKey_HashPress{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 96px;
-	left:11px;
+	width: 30px;
+	height: 24px;
+	top: 98px;
+	left:12px;
 	cursor:pointer;
 }
 
 #imgButtonKey_0Hover, #imgButtonKey_0Press{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 96px;
-	left:51px;
+	width: 30px;
+	height: 24px;
+	top: 98px;
+	left:52.6px;
 	cursor:pointer;
 }
 
 #imgButtonKey_StarHover, #imgButtonKey_StarPress{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 96px;
-	left:92.5px;
+	width: 30px;
+	height: 24px;
+	top: 98px;
+	left:94px;
 	cursor:pointer;
 }
 
@@ -294,109 +294,109 @@
 
 #imgButtonMenuHover, #imgButtonMenuPress{
 	position: absolute;
-	width: 56px;
-	height: 44px;
-	top: 13.5px;
-	left:39.5px;
+	width: 31.5px;
+	height: 35px;
+	top: 20px;
+	left:51px;
 	cursor:pointer;
 }
 
 #imgButtonMuteHover, #imgButtonMutePress{
 	position: absolute;
-	width: 49px;
-	height: 38px;
-	top: 80px;
-	left:2px;
+	width: 27px;
+	height: 30px;
+	top: 86px;
+	left:12px;
 	cursor:pointer;
 }
 
 #imgButtonHelpHover, #imgButtonHelpPress{
 	position: absolute;
-	width: 49px;
-	height: 38px;
-	top: 80.5px;
-	left:85.5px;
+	width: 27px;
+	height: 30px;
+	top: 86px;
+	left:95.5px;
 	cursor:pointer;
 }
 
 #imgButtonInfoHover, #imgButtonInfoPress{
 	position: absolute;
-	width: 47.5px;
-	height: 33px;
-	top: -1px;
-	left: 2.5px;
+	width: 26px;
+	height: 26px;
+	top: 4px;
+	left: 12.5px;
 	cursor: pointer;
 }
 
 #imgButtonGuideHover, #imgButtonGuidePress{
 	position: absolute;
-	width: 47.5px;
-	height: 33px;
-	top: -1px;
-	left: 86.5px;
+	width: 26px;
+	height: 26px;
+	top: 4px;
+	left: 96.5px;
 	cursor: pointer;
 }
 
 #imgButtonExitHover, #imgButtonExitPress{
 	position: absolute;
-	width: 47.5px;
-	height: 33px;
-	top: 90px;
-	left: 2.5px;
+	width: 26px;
+	height: 26px;
+	top: 95px;
+	left: 13px;
 	cursor: pointer;
 }
 
 #imgButtonBackHover, #imgButtonBackPress{
 	position: absolute;
-	width: 47.5px;
-	height: 33px;
-	top: 90px;
-	left: 86.5px;
+	width: 26px;
+	height: 26px;
+	top: 95.5px;
+	left: 96.5px;
 	cursor: pointer;
 }
 
 #imgButtonEnterHover, #imgButtonEnterPress{
 	position: absolute;
-	width: 78px;
-	height: 56px;
-	top: 33px;
-	left: 30px;
+	width: 43px;
+	height: 43px;
+	top: 42px;
+	left: 46px;
 	cursor: pointer;
 }
 
-#imgButtonUpHover, #imgButtonUpPress{
+#imgButtonCursor_UpHover, #imgButtonCursor_UpPress{
 	position: absolute;
-	width: 59px;
-	height: 33px;
-	top: 10.5px;
-	left: 38px;
+	width: 55px;
+	height: 22px;
+	top: 16px;
+	left: 40px;
 	cursor: pointer;
 }
 
-#imgButtonDownHover, #imgButtonDownPress{
+#imgButtonCursor_DownHover, #imgButtonCursor_DownPress{
 	position: absolute;
-	width: 57.5px;
-	height: 24px;
-	top: 87.5px;
-	left: 39px;
+	width: 53px;
+	height: 21px;
+	top: 90px;
+	left: 41px;
 	cursor: pointer;
 }
 
-#imgButtonLeftHover, #imgButtonLeftPress{
+#imgButtonCursor_LeftHover, #imgButtonCursor_LeftPress{
 	position: absolute;
-	width: 30px;
-	height: 58px;
-	top: 34px;
-	left: 16px;
+	width: 21px;
+	height: 54px;
+	top: 36px;
+	left: 21px;
 	cursor: pointer;
 }
 
-#imgButtonRightHover, #imgButtonRightPress{
+#imgButtonCursor_RightHover, #imgButtonCursor_RightPress{
 	position: absolute;
-	width: 27px;
-	height: 59px;
-	top: 34px;
-	left: 90px;
+	width: 21px;
+	height: 54px;
+	top: 36px;
+	left: 93px;
 	cursor: pointer;
 }
 
@@ -411,10 +411,10 @@
 
 #imgButtonGreenHover, #imgButtonGreenPress{
 	position: absolute;
-	width: 39px;
-	height: 26px;
-	top: 1px;
-	left: 33.5px;
+	width: 21px;
+	height: 21px;
+	top: 4px;
+	left: 42px;
 	cursor: pointer;
 }
 
@@ -429,10 +429,10 @@
 
 #imgButtonBlueHover, #imgButtonBluePress{
 	position: absolute;
-	width: 40px;
-	height: 27px;
-	top: 0px;
-	left: 90px;
+	width: 23px;
+	height: 22px;
+	top: 4.5px;
+	left: 98px;
 	cursor: pointer;
 }
 
@@ -447,29 +447,29 @@
 
 #imgButtonPlayHover, #imgButtonPlayPress{
 	position: absolute;
-	width: 65px;
-	height: 47px;
-	top: -1px;
-	left: 35px;
+	width: 22px;
+	height: 38px;
+	top: 5px;
+	left: 58.5px;
 	cursor: pointer;
 }
 
 #imgButtonForwardHover, #imgButtonForwardPress{
 	position: absolute;
-	width: 49px;
-	height: 34px;
-	top: 6px;
-	left: 84px;
+	width: 32px;
+	height: 27px;
+	top: 11px;
+	left: 91.5px;
 	cursor: pointer;
 }
 
 
 #imgButtonPauseHover, #imgButtonPausePress{
 	position: absolute;
-	width: 45px;
-	height: 34px;
-	top: 46px;
-	left: 45px;
+	width: 16px;
+	height: 25px;
+	top: 53px;
+	left: 58.5px;
 	cursor: pointer;
 }
 

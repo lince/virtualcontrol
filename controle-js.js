@@ -34,10 +34,10 @@
 
 					"<div id=\"areaPowerEject\">"+
 					
-						"<img src=\"img_control/Botoes/hover/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectPress\">"+
 						
 						"<img src=\"img_control/power+eject.png\" width=\"100%\" height=\"100%\" usemap=\"#Map\" border=\"0\" />"+
 						"<map name=\"Map\" id=\"Map\">"+
@@ -51,30 +51,30 @@
 
 					"<div id=\"areaAlfanumericos\">"+
 					
-						"<img src=\"img_control/Botoes/hover/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_3.png\" width=\"55\" height=\"41\"		id=\"imgButtonKey_3Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_3.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_3Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Press\">"+						
-						"<img src=\"img_control/Botoes/hover/png/Key_5.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_5Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_5.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_5Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_6.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_6Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_6.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_6Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_7.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_7Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_7.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_7Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_8.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_8Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_8.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_8Press\">"+						
-						"<img src=\"img_control/Botoes/hover/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_Hash.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_HashHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_Hash.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_HashPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Hover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Press\">"+
-						"<img src=\"img_control/Botoes/hover/png/Key_Star.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_StarHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Key_Star.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_StarPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_3.png\" width=\"55\" height=\"41\"		id=\"imgButtonKey_3Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_3.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_3Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Press\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Key_5.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_5Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_5.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_5Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_6.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_6Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_6.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_6Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_7.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_7Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_7.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_7Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_8.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_8Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_8.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_8Press\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_Hash.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_HashHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_Hash.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_HashPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_Star.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_StarHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_Star.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_StarPress\">"+
 												
 						"<img src=\"img_control/alfanumericos.png\" width=\"100%\" height=\"100%\" usemap=\"#Map2\" border=\"0\" />"+
 						"<map name=\"Map2\" id=\"Map2\">"+
@@ -98,20 +98,20 @@
 
 					"<div id=\"areaVolumeChannel\">"+
 					
-						"<img src=\"img_control/Botoes/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_UpHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_UpPress\">"+						
-						"<img src=\"img_control/Botoes/hover/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_DownHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_DownPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Menu.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMenuHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Menu.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMenuPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Mute.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMuteHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Mute.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMutePress\">"+	
-						"<img src=\"img_control/Botoes/hover/png/Help.png\" width=\"55\" height=\"41\" 			id=\"imgButtonHelpHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Help.png\" width=\"55\" height=\"41\" 			id=\"imgButtonHelpPress\">"+					
+						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_UpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_UpPress\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_DownHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_DownPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Menu.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMenuHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Menu.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMenuPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Mute.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMuteHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Mute.png\" width=\"55\" height=\"41\" 			id=\"imgButtonMutePress\">"+	
+						"<img src=\"img_control/Buttons/hover/png/Help.png\" width=\"55\" height=\"41\" 			id=\"imgButtonHelpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Help.png\" width=\"55\" height=\"41\" 			id=\"imgButtonHelpPress\">"+					
 					
 						"<img src=\"img_control/volume+channel.png\" width=\"100%\" height=\"100%\" usemap=\"#Map3\" border=\"0\" />"+
 						"<map name=\"Map3\" id=\"Map3\">"+
@@ -130,24 +130,24 @@
 
 					"<div id=\"areaInterativos\">"+
 					
-						"<img src=\"img_control/Botoes/hover/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Guide.png\" width=\"55\" height=\"41\"		id=\"imgButtonGuideHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Guide.png\" width=\"55\" height=\"41\" 	id=\"imgButtonGuidePress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackPress\">"+						
-						"<img src=\"img_control/Botoes/hover/png/Enter.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEnterHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Enter.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEnterPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Up.png\" width=\"55\" height=\"41\" 		id=\"imgButtonUpHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Up.png\" width=\"55\" height=\"41\" 		id=\"imgButtonUpPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Down.png\" width=\"55\" height=\"41\" 		id=\"imgButtonDownHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Down.png\" width=\"55\" height=\"41\" 		id=\"imgButtonDownPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Left.png\" width=\"55\" height=\"41\" 		id=\"imgButtonLeftHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Left.png\" width=\"55\" height=\"41\" 		id=\"imgButtonLeftPress\">"+						
-						"<img src=\"img_control/Botoes/hover/png/Right.png\" width=\"55\" height=\"41\" 	id=\"imgButtonRightHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Right.png\" width=\"55\" height=\"41\" 	id=\"imgButtonRightPress\">"+					
+						"<img src=\"img_control/Buttons/hover/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Guide.png\" width=\"55\" height=\"41\"		id=\"imgButtonGuideHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Guide.png\" width=\"55\" height=\"41\" 	id=\"imgButtonGuidePress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackPress\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Enter.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEnterHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Enter.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEnterPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Up.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_UpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Up.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_UpPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Down.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_DownHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Down.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_DownPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Left.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_LeftHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Left.png\" width=\"55\" height=\"41\" 		id=\"imgButtonCursor_LeftPress\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Right.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_RightHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Right.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_RightPress\">"+					
 					
 						"<img src=\"img_control/interativos.png\" width=\"100%\" height=\"100%\" usemap=\"#Map4\" border=\"0\" />"+
 						"<map name=\"Map4\" id=\"Map4\">"+
@@ -156,10 +156,10 @@
 						  "<area shape=\"circle\" coords=\"26,108,13\" href=\"#\"  id=\"areaButtonExit\" />"+
 						  "<area shape=\"circle\" coords=\"109,109,13\" href=\"#\" id=\"areaButtonBack\" />"+
 						  "<area shape=\"circle\" coords=\"67,63,22\" href=\"#\"   id=\"areaButtonEnter\" />"+
-						  "<area shape=\"poly\" coords=\"93,48,96,56,96,63,95,70,92,78,105,90,110,82,112,73,113,65,113,55,110,46,104,36,93,47\" href=\"#\" id=\"areaButtonRight\" />"+
-						  "<area shape=\"poly\" coords=\"52,36,57,33,65,31,73,32,81,35,93,24,86,19,77,15,67,14,59,16,51,18,40,23,52,36\" href=\"#\" id=\"areaButtonUp\" />"+
-						  "<area shape=\"poly\" coords=\"40,48,38,56,37,62,38,70,41,78,28,90,23,82,21,72,20,63,21,54,23,46,30,36\" href=\"#\" id=\"areaButtonLeft\" />"+
-						  "<area shape=\"poly\" coords=\"53,89,58,92,66,93,73,92,81,89,92,102,85,106,77,109,67,111,60,111,51,108,40,101,51,89\" href=\"#\" id=\"areaButtonDown\" />"+
+						  "<area shape=\"poly\" coords=\"93,48,96,56,96,63,95,70,92,78,105,90,110,82,112,73,113,65,113,55,110,46,104,36,93,47\" href=\"#\" id=\"areaButtonCursor_Right\" />"+
+						  "<area shape=\"poly\" coords=\"52,36,57,33,65,31,73,32,81,35,93,24,86,19,77,15,67,14,59,16,51,18,40,23,52,36\" href=\"#\" id=\"areaButtonCursor_Up\" />"+
+						  "<area shape=\"poly\" coords=\"40,48,38,56,37,62,38,70,41,78,28,90,23,82,21,72,20,63,21,54,23,46,30,36\" href=\"#\" id=\"areaButtonCursor_Left\" />"+
+						  "<area shape=\"poly\" coords=\"53,89,58,92,66,93,73,92,81,89,92,102,85,106,77,109,67,111,60,111,51,108,40,101,51,89\" href=\"#\" id=\"areaButtonCursor_Down\" />"+
 						"</map>"+ 
 					"</div>"+
 
@@ -168,14 +168,14 @@
 
 					"<div id=\"areaColoridos\">"+
 					
-						"<img src=\"img_control/Botoes/hover/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Yellow.png\" width=\"55\" height=\"41\"		id=\"imgButtonYellowHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Yellow.png\" width=\"55\" height=\"41\" 		id=\"imgButtonYellowPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Blue.png\" width=\"55\" height=\"41\" 			id=\"imgButtonBlueHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Blue.png\" width=\"55\" height=\"41\" 			id=\"imgButtonBluePress\">"+		
+						"<img src=\"img_control/Buttons/hover/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Yellow.png\" width=\"55\" height=\"41\"		id=\"imgButtonYellowHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Yellow.png\" width=\"55\" height=\"41\" 		id=\"imgButtonYellowPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Blue.png\" width=\"55\" height=\"41\" 			id=\"imgButtonBlueHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Blue.png\" width=\"55\" height=\"41\" 			id=\"imgButtonBluePress\">"+		
 					
 						"<img src=\"img_control/coloridos.png\" width=\"100%\" height=\"100%\" usemap=\"#Map5\" border=\"0\" />"+
 						"<map name=\"Map5\" id=\"Map5\">"+
@@ -191,18 +191,18 @@
 
 					"<div id=\"areaMultimidia\">"+
 					
-						"<img src=\"img_control/Botoes/hover/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Play.png\" width=\"55\" height=\"41\" 		id=\"imgButtonPlayHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Play.png\" width=\"55\" height=\"41\" 		id=\"imgButtonPlayPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Rewind.png\" width=\"55\" height=\"41\"	id=\"imgButtonRewindHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Rewind.png\" width=\"55\" height=\"41\" 	id=\"imgButtonRewindPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecPress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPauseHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPausePress\">"+
-						"<img src=\"img_control/Botoes/hover/png/Stop.png\" width=\"55\" height=\"41\" 		id=\"imgButtonStopHover\">"+
-						"<img src=\"img_control/Botoes/press/png/Stop.png\" width=\"55\" height=\"41\" 		id=\"imgButtonStopPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Play.png\" width=\"55\" height=\"41\" 		id=\"imgButtonPlayHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Play.png\" width=\"55\" height=\"41\" 		id=\"imgButtonPlayPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Rewind.png\" width=\"55\" height=\"41\"	id=\"imgButtonRewindHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Rewind.png\" width=\"55\" height=\"41\" 	id=\"imgButtonRewindPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPauseHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPausePress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Stop.png\" width=\"55\" height=\"41\" 		id=\"imgButtonStopHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Stop.png\" width=\"55\" height=\"41\" 		id=\"imgButtonStopPress\">"+
 					
 						"<img src=\"img_control/multimidia.png\" width=\"100%\" height=\"100%\" usemap=\"#Map6\" border=\"0\" />"+
 						"<map name=\"Map6\" id=\"Map6\">"+
@@ -293,7 +293,7 @@
 				
 				
 				//Transição entre Hover, press e click:
-				var imgButtons = ['ButtonEject', 'ButtonPower', 'ButtonKey_1', 'ButtonKey_2', 'ButtonKey_3', 'ButtonKey_4', 'ButtonKey_5', 'ButtonKey_6', 'ButtonKey_7', 'ButtonKey_8', 'ButtonKey_9', 'ButtonKey_Hash', 'ButtonKey_0', 'ButtonKey_Star', 'ButtonVolume_Up', 'ButtonChannel_Up', 'ButtonVolume_Down', 'ButtonChannel_Down', 'ButtonMenu', 'ButtonMute', 'ButtonHelp', 'ButtonInfo','ButtonGuide', 'ButtonExit', 'ButtonBack', 'ButtonEnter', 'ButtonUp', 'ButtonDown', 'ButtonLeft', 'ButtonRight', 'ButtonRed', 'ButtonGreen', 'ButtonYellow', 'ButtonBlue', 'ButtonRewind', 'ButtonPlay', 'ButtonForward', 'ButtonPause', 'ButtonRec', 'ButtonStop'];
+				var imgButtons = ['ButtonEject', 'ButtonPower', 'ButtonKey_1', 'ButtonKey_2', 'ButtonKey_3', 'ButtonKey_4', 'ButtonKey_5', 'ButtonKey_6', 'ButtonKey_7', 'ButtonKey_8', 'ButtonKey_9', 'ButtonKey_Hash', 'ButtonKey_0', 'ButtonKey_Star', 'ButtonVolume_Up', 'ButtonChannel_Up', 'ButtonVolume_Down', 'ButtonChannel_Down', 'ButtonMenu', 'ButtonMute', 'ButtonHelp', 'ButtonInfo','ButtonGuide', 'ButtonExit', 'ButtonBack', 'ButtonEnter', 'ButtonCursor_Up', 'ButtonCursor_Down', 'ButtonCursor_Left', 'ButtonCursor_Right', 'ButtonRed', 'ButtonGreen', 'ButtonYellow', 'ButtonBlue', 'ButtonRewind', 'ButtonPlay', 'ButtonForward', 'ButtonPause', 'ButtonRec', 'ButtonStop'];
 		
 				for(button in imgButtons)
 				{	
