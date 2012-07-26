@@ -182,26 +182,16 @@
 							
 			}
 			
-			RemoteControl.prototype.startSetAreas = function(){
-				if(this.p_areaPowerEject)
-					this.setAreaPowerEject();
-				if(this.p_areaNumbers)
-					this.setAreaNumbers();
-			}
-			
 			
 			//Chamada da função específica de cada botão			
 			RemoteControl.prototype.functionButton = function(b){
-				if((b!="CURSOR_UP")&&(b!="CURSOR_DOWN")&&(b!="CURSOR_LEFT")&&(b!="CURSOR_RIGHT")&&(b!="ENTER")&&(b!="GREEN")&&(b!="YELLOW")&&(b!="RED")&&(b!="BLUE"))
-				alert("Botao " + b + " clicado!");
-			else
 				this.player.presentation.focusManager.keyEvent(Keys[b]);
 			}
 	
 	
 		
 			//Para habilitar/desabilitar as áreas
-			var areas = ['PowerEject', 'Numbers', 'VolumeChannel', 'Interactive', 'Colorful', 'Multimedia', 'Logo'];
+			var areas = ['PowerEject', 'Numbers', 'VolumeChannel', 'Interactive', 'Colorful', 'Multimedia'];
 			
 			for(area in areas){
 				eval("RemoteControl.prototype['setArea" +areas[area]+ "'] = function(){"+
@@ -212,12 +202,18 @@
 						"$('#areaSpace"+(area+1)+"').toggle();"+
 						"$('#area" +areas[area]+ "').toggle();"+
 						
-						//o último espaçamento será visível enquanto qualquer outra área for visível:
+						//o último espaçamento e os logos serão visíveis enquanto qualquer outra área for visível:
 						
-							"if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))"+
+							"if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)){"+
+						"$('#areaSpace7').show();"+
+						"$('#areaLogo').show();"+
 						"$('#areaSpace8').show();"+
-					"else "+
+						"}"+
+					"else{ "+
+						"$('#areaSpace7').hide();"+
+						"$('#areaLogo').hide();"+
 						"$('#areaSpace8').hide();"+
+					"}"+
 										
 					"}");
 			}
