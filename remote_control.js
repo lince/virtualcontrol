@@ -33,10 +33,10 @@
 
 
 					"<div id=\"areaPowerEject\">"+					
-						"<img src=\"img_control/Buttons/hover/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Power.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPowerPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Eject.png\" width=\"55\" height=\"41\" 	id=\"imgButtonEjectPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Power.png\" 	id=\"imgButtonPowerHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Power.png\" 	id=\"imgButtonPowerPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Eject.png\" 	id=\"imgButtonEjectHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Eject.png\" 	id=\"imgButtonEjectPress\">"+
 						
 						"<img src=\"img_control/power_eject.png\" width=\"100%\" height=\"100%\" usemap=\"#Map\" border=\"0\" />"+
 						"<map name=\"Map\" id=\"Map\">"+
@@ -49,30 +49,30 @@
 					"</div>"+  
 
 					"<div id=\"areaNumbers\">"+					
-						"<img src=\"img_control/Buttons/hover/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_1.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_1Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_2.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_2Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_3.png\" width=\"55\" height=\"41\"	id=\"imgButtonKey_3Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_3.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_3Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_4.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_4Press\">"+						
-						"<img src=\"img_control/Buttons/hover/png/Key_5.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_5Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_5.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_5Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_6.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_6Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_6.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_6Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_7.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_7Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_7.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_7Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_8.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_8Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_8.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_8Press\">"+						
-						"<img src=\"img_control/Buttons/hover/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_9.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_9Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_Hash.png\" width=\"55\" height=\"41\" id=\"imgButtonKey_HashHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_Hash.png\" width=\"55\" height=\"41\"	id=\"imgButtonKey_HashPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Hover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_0.png\" width=\"55\" height=\"41\" 	id=\"imgButtonKey_0Press\">"+
-						"<img src=\"img_control/Buttons/hover/png/Key_Star.png\" width=\"55\" height=\"41\" id=\"imgButtonKey_StarHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Key_Star.png\" width=\"55\" height=\"41\" id=\"imgButtonKey_StarPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_1.png\" 		id=\"imgButtonKey_1Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_1.png\" 		id=\"imgButtonKey_1Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_2.png\" 		id=\"imgButtonKey_2Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_2.png\" 		id=\"imgButtonKey_2Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_3.png\"		id=\"imgButtonKey_3Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_3.png\" 		id=\"imgButtonKey_3Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_4.png\" 		id=\"imgButtonKey_4Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_4.png\" 		id=\"imgButtonKey_4Press\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Key_5.png\" 		id=\"imgButtonKey_5Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_5.png\" 		id=\"imgButtonKey_5Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_6.png\" 		id=\"imgButtonKey_6Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_6.png\" 		id=\"imgButtonKey_6Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_7.png\" 		id=\"imgButtonKey_7Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_7.png\" 		id=\"imgButtonKey_7Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_8.png\" 		id=\"imgButtonKey_8Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_8.png\" 		id=\"imgButtonKey_8Press\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Key_9.png\" 		id=\"imgButtonKey_9Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_9.png\" 		id=\"imgButtonKey_9Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_Hash.png\"	id=\"imgButtonKey_HashHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_Hash.png\"	id=\"imgButtonKey_HashPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_0.png\" 		id=\"imgButtonKey_0Hover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_0.png\" 		id=\"imgButtonKey_0Press\">"+
+						"<img src=\"img_control/Buttons/hover/png/Key_Star.png\" 	id=\"imgButtonKey_StarHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Key_Star.png\"	id=\"imgButtonKey_StarPress\">"+
 												
 						"<img src=\"img_control/numbers.png\" width=\"100%\" height=\"100%\" usemap=\"#Map2\" border=\"0\" />"+
 						"<map name=\"Map2\" id=\"Map2\">"+
@@ -95,20 +95,20 @@
 					"</div>"+ 
 
 					"<div id=\"areaVolumeChannel\">"+					
-						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_UpPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_UpHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Volume_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_UpPress\">"+						
-						"<img src=\"img_control/Buttons/hover/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_DownHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonVolume_DownPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonChannel_DownPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Menu.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMenuHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Menu.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMenuPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Mute.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMuteHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Mute.png\" width=\"55\" height=\"41\" 		id=\"imgButtonMutePress\">"+	
-						"<img src=\"img_control/Buttons/hover/png/Help.png\" width=\"55\" height=\"41\" 		id=\"imgButtonHelpHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Help.png\" width=\"55\" height=\"41\" 		id=\"imgButtonHelpPress\">"+					
+						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" 		id=\"imgButtonVolume_UpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Up.png\" 		id=\"imgButtonVolume_UpPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Volume_Up.png\" 		id=\"imgButtonChannel_UpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Up.png\" 		id=\"imgButtonChannel_UpPress\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Volume_Down.png\" 	id=\"imgButtonVolume_DownHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" 	id=\"imgButtonVolume_DownPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Volume_Down.png\" 	id=\"imgButtonChannel_DownHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Volume_Down.png\" 	id=\"imgButtonChannel_DownPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Menu.png\" 			id=\"imgButtonMenuHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Menu.png\" 			id=\"imgButtonMenuPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Mute.png\" 			id=\"imgButtonMuteHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Mute.png\" 			id=\"imgButtonMutePress\">"+	
+						"<img src=\"img_control/Buttons/hover/png/Help.png\" 			id=\"imgButtonHelpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Help.png\" 			id=\"imgButtonHelpPress\">"+					
 					
 						"<img src=\"img_control/volume_channel.png\" width=\"100%\" height=\"100%\" usemap=\"#Map3\" border=\"0\" />"+
 						"<map name=\"Map3\" id=\"Map3\">"+
@@ -126,24 +126,24 @@
 					"</div>"+
 
 					"<div id=\"areaInteractive\">"+					
-						"<img src=\"img_control/Buttons/hover/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Info.png\" width=\"55\" height=\"41\" 		id=\"imgButtonInfoPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Exit.png\" width=\"55\" height=\"41\" 		id=\"imgButtonExitPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Guide.png\" width=\"55\" height=\"41\"		id=\"imgButtonGuideHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Guide.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGuidePress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Back.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBackPress\">"+						
-						"<img src=\"img_control/Buttons/hover/png/Enter.png\" width=\"55\" height=\"41\" 		id=\"imgButtonEnterHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Enter.png\" width=\"55\" height=\"41\" 		id=\"imgButtonEnterPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_UpHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Up.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_UpPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_DownHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Down.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_DownPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Left.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_LeftHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Left.png\" width=\"55\" height=\"41\" 	id=\"imgButtonCursor_LeftPress\">"+						
-						"<img src=\"img_control/Buttons/hover/png/Cursor_Right.png\" width=\"55\" height=\"41\" id=\"imgButtonCursor_RightHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Cursor_Right.png\" width=\"55\" height=\"41\" id=\"imgButtonCursor_RightPress\">"+					
+						"<img src=\"img_control/Buttons/hover/png/Info.png\" 			id=\"imgButtonInfoHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Info.png\" 			id=\"imgButtonInfoPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Exit.png\" 			id=\"imgButtonExitHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Exit.png\" 			id=\"imgButtonExitPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Guide.png\"			id=\"imgButtonGuideHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Guide.png\" 			id=\"imgButtonGuidePress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Back.png\" 			id=\"imgButtonBackHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Back.png\" 			id=\"imgButtonBackPress\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Enter.png\" 			id=\"imgButtonEnterHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Enter.png\" 			id=\"imgButtonEnterPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Up.png\" 		id=\"imgButtonCursor_UpHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Up.png\" 		id=\"imgButtonCursor_UpPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Down.png\" 	id=\"imgButtonCursor_DownHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Down.png\" 	id=\"imgButtonCursor_DownPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Left.png\" 	id=\"imgButtonCursor_LeftHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Left.png\" 	id=\"imgButtonCursor_LeftPress\">"+						
+						"<img src=\"img_control/Buttons/hover/png/Cursor_Right.png\" 	id=\"imgButtonCursor_RightHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Cursor_Right.png\" 	id=\"imgButtonCursor_RightPress\">"+					
 					
 						"<img src=\"img_control/interactive.png\" width=\"100%\" height=\"100%\" usemap=\"#Map4\" border=\"0\" />"+
 						"<map name=\"Map4\" id=\"Map4\">"+
@@ -163,14 +163,14 @@
 					"</div>"+
 
 					"<div id=\"areaColorful\">"+					
-						"<img src=\"img_control/Buttons/hover/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Red.png\" width=\"55\" height=\"41\" 			id=\"imgButtonRedPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Green.png\" width=\"55\" height=\"41\" 		id=\"imgButtonGreenPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Yellow.png\" width=\"55\" height=\"41\"		id=\"imgButtonYellowHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Yellow.png\" width=\"55\" height=\"41\" 		id=\"imgButtonYellowPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Blue.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBlueHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Blue.png\" width=\"55\" height=\"41\" 		id=\"imgButtonBluePress\">"+		
+						"<img src=\"img_control/Buttons/hover/png/Red.png\" 		id=\"imgButtonRedHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Red.png\" 		id=\"imgButtonRedPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Green.png\" 		id=\"imgButtonGreenHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Green.png\" 		id=\"imgButtonGreenPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Yellow.png\"		id=\"imgButtonYellowHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Yellow.png\" 		id=\"imgButtonYellowPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Blue.png\" 		id=\"imgButtonBlueHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Blue.png\" 		id=\"imgButtonBluePress\">"+		
 					
 						"<img src=\"img_control/colorful.png\" width=\"100%\" height=\"100%\" usemap=\"#Map5\" border=\"0\" />"+
 						"<map name=\"Map5\" id=\"Map5\">"+
@@ -185,18 +185,18 @@
 					"</div>"+
 
 					"<div id=\"areaMultimedia\">"+					
-						"<img src=\"img_control/Buttons/hover/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Forward.png\" width=\"55\" height=\"41\" 	id=\"imgButtonForwardPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Play.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPlayHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Play.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPlayPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Rewind.png\" width=\"55\" height=\"41\"	id=\"imgButtonRewindHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Rewind.png\" width=\"55\" height=\"41\" 	id=\"imgButtonRewindPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Rec.png\" width=\"55\" height=\"41\" 		id=\"imgButtonRecPress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPauseHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Pause.png\" width=\"55\" height=\"41\" 	id=\"imgButtonPausePress\">"+
-						"<img src=\"img_control/Buttons/hover/png/Stop.png\" width=\"55\" height=\"41\" 	id=\"imgButtonStopHover\">"+
-						"<img src=\"img_control/Buttons/press/png/Stop.png\" width=\"55\" height=\"41\" 	id=\"imgButtonStopPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Forward.png\" 	id=\"imgButtonForwardHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Forward.png\" 	id=\"imgButtonForwardPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Play.png\" 		id=\"imgButtonPlayHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Play.png\" 		id=\"imgButtonPlayPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Rewind.png\"		id=\"imgButtonRewindHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Rewind.png\" 		id=\"imgButtonRewindPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Rec.png\" 		id=\"imgButtonRecHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Rec.png\" 		id=\"imgButtonRecPress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Pause.png\" 		id=\"imgButtonPauseHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Pause.png\" 		id=\"imgButtonPausePress\">"+
+						"<img src=\"img_control/Buttons/hover/png/Stop.png\" 		id=\"imgButtonStopHover\">"+
+						"<img src=\"img_control/Buttons/press/png/Stop.png\"	 	id=\"imgButtonStopPress\">"+
 					
 						"<img src=\"img_control/multimedia.png\" width=\"100%\" height=\"100%\" usemap=\"#Map6\" border=\"0\" />"+
 						"<map name=\"Map6\" id=\"Map6\">"+
@@ -236,98 +236,67 @@
 				$('#areaLogo').hide();
 				$('#areaSpace8').hide();
 				
-				
-				//Chamadas para o evento click de cada botão:	
-				$('#areaButtonPower').click($.proxy(function(){this.Button('POWER')}, this));
-				$('#areaButtonEject').click($.proxy(function(){this.Button('EJECT')}, this));
-				
-				$('#areaButton1').click($.proxy(function(){this.Button('KEY_1')}, this));
-				$('#areaButton2').click($.proxy(function(){this.Button('KEY_2')}, this));
-				$('#areaButton3').click($.proxy(function(){this.Button('KEY_3')}, this));
-				$('#areaButton4').click($.proxy(function(){this.Button('KEY_4')}, this));
-				$('#areaButton5').click($.proxy(function(){this.Button('KEY_5')}, this));
-				$('#areaButton6').click($.proxy(function(){this.Button('KEY_6')}, this));
-				$('#areaButton7').click($.proxy(function(){this.Button('KEY_7')}, this));
-				$('#areaButton8').click($.proxy(function(){this.Button('KEY_8')}, this));
-				$('#areaButton9').click($.proxy(function(){this.Button('KEY_9')}, this));
-				$('#areaButtonHash').click($.proxy(function(){this.Button('KEY_HASH')}, this));
-				$('#areaButton0').click($.proxy(function(){this.Button('KEY_0')}, this));
-				$('#areaButtonStar').click($.proxy(function(){this.Button('KEY_STAR')}, this));
-				
-				$('#areaButtonMenu').click($.proxy(function(){this.Button('MENU')}, this));
-				$('#areaButtonMute').click($.proxy(function(){this.Button('MUTE')}, this));
-				$('#areaButtonHelp').click($.proxy(function(){this.Button('HELP')}, this));
-				$('#areaButtonVolumeUp').click($.proxy(function(){this.Button('VULUME_UP')}, this));
-				$('#areaButtonChannelUp').click($.proxy(function(){this.Button('CHANNEL_UP')}, this));
-				$('#areaButtonVolumeDown').click($.proxy(function(){this.Button('VOLUME_DOWN')}, this));
-				$('#areaButtonChannelDown').click($.proxy(function(){this.Button('CHANNEL_DOWN')}, this));				
-				
-				$('#areaButtonGuide').click($.proxy(function(){this.Button('GUIDE')}, this));
-				$('#areaButtonInfo').click($.proxy(function(){this.Button('INFO')}, this));
-				$('#areaButtonBack').click($.proxy(function(){this.Button('BACK')}, this));
-				$('#areaButtonExit').click($.proxy(function(){this.Button('EXIT')}, this));
-				$('#areaButtonEnter').click($.proxy(function(){this.Button('ENTER')}, this));
-				$('#areaButtonUp').click($.proxy(function(){this.Button('UP')}, this));
-				$('#areaButtonDown').click($.proxy(function(){this.Button('DOWN')}, this));
-				$('#areaButtonRight').click($.proxy(function(){this.Button('RIGHT')}, this));
-				$('#areaButtonLeft').click($.proxy(function(){this.Button('LEFT')}, this));
-				
-				$('#areaButtonRed').click($.proxy(function(){this.Button('RED')}, this));
-				$('#areaButtonBlue').click($.proxy(function(){this.Button('BLUE')}, this));
-				$('#areaButtonGreen').click($.proxy(function(){this.Button('GREEN')}, this));
-				$('#areaButtonYellow').click($.proxy(function(){this.Button('YELLOW')}, this));
-				
-				$('#areaButtonRewind').click($.proxy(function(){this.Button('REWIND')}, this));
-				$('#areaButtonPlay').click($.proxy(function(){this.Button('PLAY')}, this));
-				$('#areaButtonForward').click($.proxy(function(){this.Button('FORWARD')}, this));
-				$('#areaButtonPause').click($.proxy(function(){this.Button('PAUSE')}, this));
-				$('#areaButtonStop').click($.proxy(function(){this.Button('STOP')}, this));
-				$('#areaButtonRec').click($.proxy(function(){this.Button('REC')}, this));
-				
-				
-				
-				//Transição entre Hover, press e click:
-				var imgButtons = ['ButtonEject', 'ButtonPower', 'ButtonKey_1', 'ButtonKey_2', 'ButtonKey_3', 'ButtonKey_4', 'ButtonKey_5', 'ButtonKey_6', 'ButtonKey_7', 'ButtonKey_8', 'ButtonKey_9', 'ButtonKey_Hash', 'ButtonKey_0', 'ButtonKey_Star', 'ButtonVolume_Up', 'ButtonChannel_Up', 'ButtonVolume_Down', 'ButtonChannel_Down', 'ButtonMenu', 'ButtonMute', 'ButtonHelp', 'ButtonInfo','ButtonGuide', 'ButtonExit', 'ButtonBack', 'ButtonEnter', 'ButtonCursor_Up', 'ButtonCursor_Down', 'ButtonCursor_Left', 'ButtonCursor_Right', 'ButtonRed', 'ButtonGreen', 'ButtonYellow', 'ButtonBlue', 'ButtonRewind', 'ButtonPlay', 'ButtonForward', 'ButtonPause', 'ButtonRec', 'ButtonStop'];
+							
+				//Transição entre Hover, press e chamada da função de cada botão:
+				var imgButtons = ['Eject', 'Power', 'Key_1', 'Key_2', 'Key_3', 'Key_4', 'Key_5', 'Key_6', 'Key_7', 'Key_8', 'Key_9', 'Key_Hash', 'Key_0', 'Key_Star', 'Volume_Up', 'Channel_Up', 'Volume_Down', 'Channel_Down', 'Menu', 'Mute', 'Help', 'Info','Guide', 'Exit', 'Back', 'Enter', 'Cursor_Up', 'Cursor_Down', 'Cursor_Left', 'Cursor_Right', 'Red', 'Green', 'Yellow', 'Blue', 'Rewind', 'Play', 'Forward', 'Pause', 'Rec', 'Stop'];
 		
 				for(button in imgButtons)
 				{	
-					$("#img" + imgButtons[button] + "Hover").hide();
-					$("#img" + imgButtons[button] + "Press").hide();
+					$("#imgButton" + imgButtons[button] + "Hover").hide();
+					$("#imgButton" + imgButtons[button] + "Press").hide();
 			
-					eval('$("#area" + imgButtons[button]).mouseover(function(){'+
-						'$("#img" + imgButtons[' + button + '] + "Hover").show();'+
-						'});'
-					);
-												
-					eval('$("#img" + imgButtons[button] + "Hover").mouseout(function(){'+
-						'$("#img" + imgButtons[' + button + '] + "Hover").hide();'+
-						'});'
-					);
-								
-												
-					eval('$("#img" + imgButtons[button] + "Hover").mousedown(function(){'+
-						'$("#img" + imgButtons[' + button + '] + "Press").show();'+
-						'$("#img" + imgButtons[' + button + '] + "Hover").hide();'+
+					//Passando o mouse por cima do botão estático
+					eval('$("#areaButton" + imgButtons[button]).mouseover(function(){'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Hover").show();'+
 						'});'
 					);
 					
-					eval('$("#img" + imgButtons[button] + "Press").mouseout(function(){'+
-						'$("#img" + imgButtons[' + button + '] + "Press").hide();'+
-						'$("#img" + imgButtons[' + button + '] + "Hover").hide();'+
+					//Retirando o mouse de cima do hover							
+					eval('$("#imgButton" + imgButtons[button] + "Hover").mouseout(function(){'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Hover").hide();'+
+						'});'
+					);
+					
+								
+					//Pressionando o botão quando hover (Aparição da imagem "press")				
+					eval('$("#imgButton" + imgButtons[button] + "Hover").mousedown(function(){'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Press").show();'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Hover").hide();'+				
+						'});'
+					);
+				
+					
+					//Pressionando o botão quando hover (Chamada da Função apropriada para o botão)
+					/*eval('$("#imgButton" + imgButtons[button] + "Hover").mousedown($.proxy(function(){'+
+						'this.functionButton("'+ imgButtons[button].toUpperCase() + '");' +		
+						'},this));'
+					);*/
+					
+					
+					//Retirando o mouse de cima do press
+					eval('$("#imgButton" + imgButtons[button] + "Press").mouseout(function(){'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Press").hide();'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Hover").hide();'+
 						'});'
 					);
 							
-												
-					eval('$("#img" + imgButtons[button] + "Press").mouseup(function(){'+
-						'$("#img" + imgButtons[' + button + '] + "Press").hide();'+
-						'$("#img" + imgButtons[' + button + '] + "Hover").show();'+
+					//Soltando o botão quando press							
+					eval('$("#imgButton" + imgButtons[button] + "Press").mouseup(function(){'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Press").hide();'+
+						'$("#imgButton" + imgButtons[' + button + '] + "Hover").show();'+
 						'});'
 					);
-					
-				}
-	
-					
+				}								
 			}
+			
+			//Chamada da função específica de cada botão			
+			RemoteControl.prototype.functionButton = function(b){
+				if((b!="CURSOR_UP")&&(b!="CURSOR_DOWN")&&(b!="CURSOR_LEFT")&&(b!="CURSOR_RIGHT")&&(b!="ENTER")&&(b!="GREEN")&&(b!="YELLOW")&&(b!="RED")&&(b!="BLUE"))
+				alert("Botao " + b + " clicado!");
+			else
+				this.player.presentation.focusManager.keyEvent(Keys[b]);
+			}
+	
 	
 			//Para visualizar a área PowerEject(mesma lógica para as demais áreas)
 			RemoteControl.prototype.setAreaPowerEject = function(p_areaPowerEject){
@@ -346,7 +315,26 @@
 						else
 							$('#areaSpace8').hide();
 					}
-		}
+			}
+			
+			/*var areas = ['Numbers'];
+			
+			for(area in areas){
+				
+				RemoteControl.prototype.setArea + areas[area] = function(p_area + areas[area]){
+					if(p_area + areas[area]){
+						this.control + areas[area] = !(this.control areas[area]);
+						
+						$("#areaSpace" + (area+1)).toggle();
+						$("#area" + areas[area]).toggle();
+
+					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
+						$('#areaSpace8').show();
+					else
+						$('#areaSpace8').hide();
+					}					
+				}
+			}*/
 
 		RemoteControl.prototype.setAreaNumbers = function(p_areaNumbers){				
 				if(p_areaNumbers){
@@ -433,15 +421,3 @@
 		}
 		
 		
-		RemoteControl.prototype.Button = function(b){
-			if((b!="CURSOR_UP")&&(b!="CURSOR_DOWN")&&(b!="CURSOR_LEFT")&&(b!="CURSOR_RIGHT")&&(b!="ENTER")&&(b!="GREEN")&&(b!="YELLOW")&&(b!="RED")&&(b!="BLUE"))
-				alert("Botao " + b + " clicado!");
-			else
-				this.player.presentation.focusManager.keyEvent(Keys[b]);
-
-		}
-		
-		RemoteControl.prototype.Button2 = function(b){
-			$('#areaPlayer2').toggle();
-
-		}
