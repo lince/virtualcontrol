@@ -1,9 +1,4 @@
-	
-
-
-
 		/*Classe Controle:*/
-
 		function RemoteControl(player, divId, p_areaPowerEject, p_areaNumbers, p_areaVolumeChannel, p_areaInteractive, p_areaColorful, p_areaMultimedia, p_areaLogo) 
 		{
 				this.player = player;
@@ -25,6 +20,7 @@
 				var controlColorful = 0;
 				var controlMultimedia = 0;
 				var controlLogo = 0;
+				
 
 
 				//Ao criar um objeto Controle todas as áreas e botões serão criados...
@@ -181,8 +177,16 @@
 						'this.functionButton("'+ imgButtons[button].toUpperCase() + '");' +		
 						'},this));'
 					);
+				}		
 				
-				}					
+							
+			}
+			
+			RemoteControl.prototype.startSetAreas = function(){
+				if(this.p_areaPowerEject)
+					this.setAreaPowerEject();
+				if(this.p_areaNumbers)
+					this.setAreaNumbers();
 			}
 			
 			
@@ -195,126 +199,27 @@
 			}
 	
 	
-			//Para visualizar a área PowerEject(mesma lógica para as demais áreas)
-			RemoteControl.prototype.setAreaPowerEject = function(p_areaPowerEject){
-					if(p_areaPowerEject){
-	
-						//sinaliza a flag de controle da área
-						this.controlPowerEject = !(this.controlPowerEject);
-	
-						//a área sempre será visualizada juntamente com o seu espaçamento acima
-						$('#areaSpace1').toggle();
-						$('#areaPowerEject').toggle();
-	
-						//o último espaçamento será visível enquanto qualquer outra área for visível
-						if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-							$('#areaSpace8').show();
-						else
-							$('#areaSpace8').hide();
-					}
-			}
-			
-			/*var areas = ['Numbers'];
+		
+			//Para habilitar/desabilitar as áreas
+			var areas = ['PowerEject', 'Numbers', 'VolumeChannel', 'Interactive', 'Colorful', 'Multimedia', 'Logo'];
 			
 			for(area in areas){
-				
-				RemoteControl.prototype.setArea + areas[area] = function(p_area + areas[area]){
-					if(p_area + areas[area]){
-						this.control + areas[area] = !(this.control areas[area]);
+				eval("RemoteControl.prototype['setArea" +areas[area]+ "'] = function(){"+
+						//sinaliza a flag de controle da área
+						"this['control" +areas[area]+ "'] = !(this['control" +areas[area]+ "']);"+
 						
-						$("#areaSpace" + (area+1)).toggle();
-						$("#area" + areas[area]).toggle();
+						//a área sempre será visualizada juntamente com o seu espaçamento acima
+						"$('#areaSpace"+(area+1)+"').toggle();"+
+						"$('#area" +areas[area]+ "').toggle();"+
+						
+						//o último espaçamento será visível enquanto qualquer outra área for visível:
+						
+							"if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))"+
+						"$('#areaSpace8').show();"+
+					"else "+
+						"$('#areaSpace8').hide();"+
+										
+					"}");
+			}
 
-					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-						$('#areaSpace8').show();
-					else
-						$('#areaSpace8').hide();
-					}					
-				}
-			}*/
-
-		RemoteControl.prototype.setAreaNumbers = function(p_areaNumbers){				
-				if(p_areaNumbers){
-					this.controlNumbers = !(this.controlNumbers);
-
-					$('#areaSpace2').toggle();
-					$('#areaNumbers').toggle();
-
-					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-						$('#areaSpace8').show();
-					else
-						$('#areaSpace8').hide();
-				}
-		}
-
-		RemoteControl.prototype.setAreaVolumeChannel = function(p_areaVolumeChannel){
-				if(p_areaVolumeChannel){
-					this.controlVolumeChannel = !(this.controlVolumeChannel);
-
-					$('#areaSpace3').toggle();
-					$('#areaVolumeChannel').toggle();
-
-					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-						$('#areaSpace8').show();
-					else
-						$('#areaSpace8').hide();
-				}
-		}
-
-		RemoteControl.prototype.setAreaInteractive = function(p_areaInteractive){
-				if(p_areaInteractive){
-					this.controlInteractive = !(this.controlInteractive);
-
-					$('#areaSpace4').toggle();
-					$('#areaInteractive').toggle();
-
-					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-						$('#areaSpace8').show();
-					else
-						$('#areaSpace8').hide();
-				}
-		}
-
-		RemoteControl.prototype.setAreaColorful = function(p_areaColorful){
-				if(p_areaColorful){
-					this.controlColorful = !(this.controlColorful);
-
-					$('#areaSpace5').toggle();
-					$('#areaColorful').toggle();
-
-					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-						$('#areaSpace8').show();
-					else
-						$('#areaSpace8').hide();
-				}
-		}
-
-		RemoteControl.prototype.setAreaMultimedia = function(p_areaMultimedia){
-				if(p_areaMultimedia){
-					this.controlMultimedia = !(this.controlMultimedia);
-
-					$('#areaSpace6').toggle();
-					$('#areaMultimedia').toggle();
-
-					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-						$('#areaSpace8').show();
-					else
-						$('#areaSpace8').hide();
-				}
-		}
-
-		RemoteControl.prototype.setAreaLogo = function(p_areaLogo){
-				if(p_areaLogo){
-					this.controlLogo = !(this.controlLogo);
-
-					$('#areaSpace7').toggle();
-					$('#areaLogo').toggle();
-
-					if((this.controlPowerEject)||(this.controlNumbers)||(this.controlVolumeChannel)||(this.controlInteractive)||(this.controlColorful)||(this.controlMultimedia)||(this.controlLogo))
-						$('#areaSpace8').show();
-					else
-						$('#areaSpace8').hide();
-				}
-		}
-		
 		
