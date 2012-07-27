@@ -17,7 +17,7 @@
 }
 
 .nclPlayer {
-	position: fixed;
+	position: absolute;				/*CHANGE THIS*/
 	left: 0px;
 	top: 0px;
 	width: 853px;
@@ -176,14 +176,14 @@
 /*--- Botão Power ---*/
 #ButtonPower{
 	position: absolute;
-	width: 29px;
+	width: 28px;
 	height: 27px;
-	top: 6px;
-	left:12px;
+	top: 6.5px;
+	left:12.8px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Power.png);
-	background-size:29px 27px;
+	background-size:28px 27px;
 }
 
 #ButtonPower:hover{
@@ -194,17 +194,17 @@
 	background-image:url(img_control/Buttons/press/png/Power.png);
 }
 
-/*--- Botão Power ---*/
+/*--- Botão Eject ---*/
 #ButtonEject{
 	position: absolute;
-	width: 20px;
-	height: 20px;
-	top: 13px;
-	left:102px;
+	width: 20.7px;
+	height: 19.7px;
+	top: 13.4px;
+	left:101.7px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Eject.png);
-	background-size:20px 20px;
+	background-size:20.7px 19.7px;
 }
 
 #ButtonEject:hover{
@@ -241,7 +241,7 @@
 	position: absolute;
 	width: 30px;
 	height: 24px;
-	top: 4.5px;
+	top: 4px;
 	left:52.5px;
 	cursor:pointer;
 	opacity:0;
@@ -346,7 +346,7 @@
 	position: absolute;
 	width: 30px;
 	height: 24px;
-	top: 67px;
+	top: 66.7px;
 	left:12px;
 	cursor:pointer;;
 	opacity:0;
@@ -368,7 +368,7 @@
 	position: absolute;
 	width: 30px;
 	height: 24px;
-	top: 67px;
+	top: 66.7px;
 	left:52.5px;
 	cursor:pointer;
 	opacity:0;
@@ -389,7 +389,7 @@
 	position: absolute;
 	width: 30px;
 	height: 24px;
-	top: 67px;
+	top: 66.7px;
 	left:94px;
 	cursor:pointer;
 	opacity:0;
@@ -471,14 +471,14 @@
 /*--- Botão Volume_Up ---*/			
 #ButtonVolume_Up{
 	position: absolute;
-	width: 29.5px;
+	width: 29px;
 	height: 27px;
-	top: 4.5px;
-	left:10.5px;
+	top: 4.7px;
+	left:11px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Volume_Up.png);
-	background-size:29.5px 27px;
+	background-size:29px 27px;
 }
 
 #ButtonVolume_Up:hover{
@@ -493,13 +493,13 @@
 #ButtonVolume_Down{
 	position: absolute;
 	width: 29px;
-	height: 27px;
-	top: 48.5px;
+	height: 26.5px;
+	top: 49px;
 	left:11px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Volume_Down.png);
-	background-size:29px 27px;
+	background-size:29px 26.5px;
 }
 
 #ButtonVolume_Down:hover{
@@ -513,14 +513,14 @@
 /*--- Botão Channel_Up ---*/			
 #ButtonChannel_Up{
 	position: absolute;
-	width: 30px;
+	width: 29px;
 	height: 27px;
 	top: 5px;
 	left:94px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Volume_Up.png);
-	background-size:30px 27px;
+	background-size:29px 27px;
 }
 
 #ButtonChannel_Up:hover{
@@ -536,7 +536,7 @@
 	position: absolute;
 	width: 29px;
 	height: 27px;
-	top: 48.5px;
+	top: 49px;
 	left:95px;
 	cursor:pointer;
 	opacity:0;
@@ -555,14 +555,14 @@
 /*--- Botão Menu ---*/			
 #ButtonMenu{
 	position: absolute;
-	width: 31.5px;
-	height: 35px;
-	top: 20px;
+	width: 30.9px;
+	height: 34.7px;
+	top: 21px;
 	left:51px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Menu.png);
-	background-size:31.5px 35px;
+	background-size:30.9px 34.7px;
 }
 
 #ButtonMenu:hover{
@@ -576,14 +576,14 @@
 /*--- Botão Mute ---*/			
 #ButtonMute{
 	position: absolute;
-	width: 27px;
-	height: 30px;
+	width: 26.4px;
+	height: 29.5px;
 	top: 86px;
-	left:12px;
+	left:12.3px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Mute.png);
-	background-size:27px 30px;
+	background-size:26.4px 29.5px;
 }
 
 #ButtonMute:hover{
@@ -597,14 +597,14 @@
 /*--- Botão Help ---*/			
 #ButtonHelp{
 	position: absolute;
-	width: 27px;
-	height: 30px;
-	top: 86px;
-	left:95.5px;
+	width: 26.9px;
+	height: 29.9px;
+	top: 86.1px;
+	left:95.6px;
 	cursor:pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Help.png);
-	background-size:27px 30px;
+	background-size:26.9px 30px
 }
 
 #ButtonHelp:hover{
@@ -639,14 +639,14 @@
 /*--- Botão Exit ---*/	
 #ButtonExit{
 	position: absolute;
-	width: 26px;
-	height: 26px;
+	width: 25.7px;
+	height: 26.1px;
 	top: 95px;
 	left: 13px;
 	cursor: pointer;;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Exit.png);
-	background-size:26px 26px;
+	background-size:25.7px 26.1px;
 }
 
 #ButtonExit:hover{
@@ -660,14 +660,14 @@
 /*--- Botão Guide ---*/			
 #ButtonGuide{
 	position: absolute;
-	width: 26px;
+	width: 25.8px;
 	height: 26px;
 	top: 4px;
-	left: 96.5px;
+	left: 96.3px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Guide.png);
-	background-size:26px 26px;
+	background-size:25.8px 26px;
 }
 
 #ButtonGuide:hover{
@@ -681,14 +681,14 @@
 /*--- Botão Back ---*/			
 #ButtonBack{
 	position: absolute;
-	width: 26px;
-	height: 26px;
-	top: 95.5px;
-	left: 96.5px;
+	width: 25.6px;
+	height: 25.4px;
+	top: 96px;
+	left: 97px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Back.png);
-	background-size:26px 26px;
+	background-size:25.6px 25.4px;
 }
 
 #ButtonBack:hover{
@@ -702,14 +702,14 @@
 /*--- Botão Enter ---*/			
 #ButtonEnter{
 	position: absolute;
-	width: 43px;
+	width: 42.5px;
 	height: 43px;
 	top: 42px;
 	left: 46px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Enter.png);
-	background-size:43px 43px;
+	background-size:42.5px 43px;
 }
 
 #ButtonEnter:hover{
@@ -723,14 +723,14 @@
 /*--- Botão Cursor_Up ---*/			
 #ButtonCursor_Up{
 	position: absolute;
-	width: 55px;
-	height: 22px;
-	top: 16px;
-	left: 40px;
+	width: 53px;
+	height: 21px;
+	top: 16.5px;
+	left: 41.5px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Cursor_Up.png);
-	background-size:55px 22px;
+	background-size:53px 21px;
 }
 
 #ButtonCursor_Up:hover{
@@ -744,14 +744,14 @@
 /*--- Botão Cursor_Down ---*/			
 #ButtonCursor_Down{
 	position: absolute;
-	width: 53px;
-	height: 21px;
+	width: 52px;
+	height: 20px;
 	top: 90px;
 	left: 41px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Cursor_Down.png);
-	background-size:53px 21px;
+	background-size:52px 20px;
 }
 
 #ButtonCursor_Down:hover{
@@ -765,14 +765,14 @@
 /*--- Botão Cursor_Left ---*/			
 #ButtonCursor_Left{
 	position: absolute;
-	width: 21px;
-	height: 54px;
+	width: 20px;
+	height: 55px;
 	top: 36px;
 	left: 21px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Cursor_Left.png);
-	background-size:21px 53px;
+	background-size:20px 55px;
 }
 
 #ButtonCursor_Left:hover{
@@ -786,14 +786,14 @@
 /*--- Botão Cursor_Right ---*/			
 #ButtonCursor_Right{
 	position: absolute;
-	width: 21px;
+	width: 20px;
 	height: 54px;
 	top: 36px;
-	left: 93px;
+	left: 93.5px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Cursor_Right.png);
-	background-size:21px 54px;
+	background-size:20px 54px;
 }
 
 #ButtonCursor_Right:hover{
@@ -809,8 +809,8 @@
 	position: absolute;
 	width: 22px;
 	height: 21px;
-	top: 4px;
-	left: 14px;
+	top: 4.5px;
+	left: 14.5px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Red.png);
@@ -831,7 +831,7 @@
 	width: 21px;
 	height: 21px;
 	top: 4px;
-	left: 42px;
+	left: 42.5px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Green.png);
@@ -849,14 +849,14 @@
 /*--- Botão Yellow ---*/			
 #ButtonYellow{
 	position: absolute;
-	width: 22px;
-	height: 21px;
-	top: 4px;
-	left: 70px;
+	width: 21px;
+	height: 20px;
+	top: 4.5px;
+	left: 70.5px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Yellow.png);
-	background-size:22px 21px;
+	background-size:21px 20px;
 }
 
 #ButtonYellow:hover{
@@ -870,14 +870,14 @@
 /*--- Botão Blue ---*/			
 #ButtonBlue{
 	position: absolute;
-	width: 23px;
-	height: 22px;
-	top: 4.5px;
+	width: 22px;
+	height: 21px;
+	top: 5px;
 	left: 98px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Blue.png);
-	background-size:23px 22px;
+	background-size:22px 21px;
 }
 
 #ButtonBlue:hover{
@@ -891,14 +891,14 @@
 /*--- Botão Rewind ---*/			
 #ButtonRewind{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 10px;
-	left: 11.5px;
+	width: 30.2px;
+	height: 25.5px;
+	top: 11px;
+	left: 12.6px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Rewind.png);
-	background-size:32px 27px;
+	background-size:30.2px 25.5px;
 }
 
 #ButtonRewind:hover{
@@ -913,7 +913,7 @@
 #ButtonPlay{
 	position: absolute;
 	width: 22px;
-	height: 38px;
+	height: 37.8px;
 	top: 5px;
 	left: 58.5px;
 	cursor: pointer;
@@ -933,14 +933,14 @@
 /*--- Botão Forward ---*/			
 #ButtonForward{
 	position: absolute;
-	width: 32px;
-	height: 27px;
-	top: 11px;
+	width: 31.7px;
+	height: 26.7px;
+	top: 12.1px;
 	left: 91.5px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Forward.png);
-	background-size:32px 27px;
+	background-size:31.7px 26.7px;
 }
 
 #ButtonForward:hover{
@@ -951,8 +951,8 @@
 	background-image:url(img_control/Buttons/press/png/Forward.png);
 }
 
-/*--- Botão Rec ---*/			
-#ButtonRec{
+/*--- Botão Record ---*/			
+#ButtonRecord{
 	position: absolute;
 	width: 26px;
 	height: 27px;
@@ -960,29 +960,29 @@
 	left: 16px;
 	cursor: pointer;
 	opacity:0;
-	background-image:url(img_control/Buttons/hover/png/Rec.png);
+	background-image:url(img_control/Buttons/hover/png/Record.png);
 	background-size:26px 27px;
 }
 
-#ButtonRec:hover{
+#ButtonRecord:hover{
 	opacity:1;
 }
 
-#ButtonRec:active{
-	background-image:url(img_control/Buttons/press/png/Rec.png);
+#ButtonRecord:active{
+	background-image:url(img_control/Buttons/press/png/Record.png);
 }
 
 /*--- Botão Pause ---*/			
 #ButtonPause{
 	position: absolute;
-	width: 16px;
-	height: 25px;
-	top: 53px;
-	left: 58.5px;
+	width: 15.2px;
+	height: 24.8px;
+	top: 54.5px;
+	left: 59.2px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Pause.png);
-	background-size:16px 25px;
+	background-size:15.2px 24.8px;
 }
 
 #ButtonPause:hover{
@@ -996,14 +996,14 @@
 /*--- Botão Stop ---*/			
 #ButtonStop{
 	position: absolute;
-	width: 26px;
-	height: 27px;
-	top: 52px;
+	width: 25px;
+	height: 27.1px;
+	top: 52.2px;
 	left: 93px;
 	cursor: pointer;
 	opacity:0;
 	background-image:url(img_control/Buttons/hover/png/Stop.png);
-	background-size:26px 27px;
+	background-size:25px 27.1px;
 }
 
 #ButtonStop:hover{
