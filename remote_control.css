@@ -17,7 +17,7 @@
 }
 
 .nclPlayer {
-	position: absolute;				/*CHANGE THIS*/
+	position: fixed;
 	left: 0px;
 	top: 0px;
 	width: 853px;
