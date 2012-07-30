@@ -17,8 +17,7 @@
 				var controlVolumeChannel = 0;
 				var controlInteractive = 0;
 				var controlColorful = 0;
-				var controlMultimedia = 0;
-				var controlLogo = 0;				
+				var controlMultimedia = 0;		
 
 
 				//Ao criar um objeto Controle todas as áreas e botões serão criados...
@@ -164,7 +163,8 @@
 				$('#areaSpace7').hide();
 				$('#areaLogo').hide();
 				$('#areaSpace8').hide();	
-					
+				
+				//e finalmente haverá o tratamento correto para inicialização das áreas:	
 				this.setAreas();					
 							
 				//Pressionando o botão quando hover (Chamada da Função apropriada para o botão)
@@ -176,39 +176,23 @@
 						"},this));"
 					);
 				}	
-											
-			}	
-			
-			/*var vareas = ['PowerEject', 'Numbers', 'VolumeChannel', 'Interactive', 'Colorful', 'Multimedia'];
-			
-			RemoteControl.prototype.setAreas = function(){
-				for (p_area in vareas){
-					if(this['p_area'+ vareas[p_area]])
-						this['setArea'+ vareas[p_area]+ '()'];
-				}
-			}*/
+														
+			}			
 			
 			//Habilita as áreas pré-definidas pelo criador do controle:
 			RemoteControl.prototype.setAreas = function(){
-				if(this.p_areaPowerEject)
-					this.setAreaPowerEject();
-				if(this.p_areaNumbers)
-					this.setAreaNumbers();
-				if(this.p_areaVolumeChannel)
-					this.setAreaVolumeChannel();	
-				if(this.p_areaInteractive)
-					this.setAreaInteractive();
-				if(this.p_areaColorful)
-					this.setAreaColorful();
-				if(this.p_areaMultimedia)
-					this.setAreaMultimedia();
+				var areas = ['PowerEject', 'Numbers', 'VolumeChannel', 'Interactive', 'Colorful', 'Multimedia'];
+				
+				for (area in areas){				
+					if(this['p_area'+areas[area]])
+						this['setArea'+areas[area]]();
+				}
 			}
 			
 			//Chamada da função específica de cada botão			
 			RemoteControl.prototype.functionButton = function(b){
 				this.player.keyPress(b);
-			}	
-	
+			}		
 		
 			//Para habilitar/desabilitar as áreas
 			var areas = ['PowerEject', 'Numbers', 'VolumeChannel', 'Interactive', 'Colorful', 'Multimedia'];
