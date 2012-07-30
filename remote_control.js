@@ -206,7 +206,7 @@
 			
 			//Chamada da função específica de cada botão			
 			RemoteControl.prototype.functionButton = function(b){
-				this.player.keyPress(this.player.presentation.keys[b]);
+				this.player.keyPress(b);
 			}	
 	
 		

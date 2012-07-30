@@ -158,11 +158,25 @@ MediaPlayer.prototype.create = function (node) {
                         //creates the playerSettings data structure
                         this.playerSettings = 
                         {
-                             source: 
+                                source: 
                                 {
                                     type: this.type,
                                     ext: node._ext,
                                     url: this.presentation.path + node.src
+                                },
+
+
+                                onChangeProperty:
+                                {
+                                    defaultAction: Player.propertyAction.IGNORE, //IGNORE,OVERRIDE,OVERLOAD
+
+                                    //propertyMap has higher priority than defaultAction                                    
+                                    propertyMap:
+                                    {
+                                        //'property': IGNORE,OVERRIDE,OVERLOAD
+                                    }
+                                    //when overrided, user should trigger onEndAttribution
+                                    //using postEvent
                                 },
 
 
@@ -173,6 +187,8 @@ MediaPlayer.prototype.create = function (node) {
                                 checkType: $.proxy(this.checkType,this),
 								getProperty: $.proxy(this.getProperty,this),
 								setProperty: $.proxy(this.setProperty,this),
+                                postEvent: this.presentation.postEvent,
+
                                 
                               media:{
                                 areas: this.area  
@@ -374,22 +390,7 @@ MediaPlayer.prototype.create = function (node) {
 	
 	}
 	/* ----------------------------------------------- */
-	
-	/* REMOVER
-	// explicitDur treatment
-	if(this.explicitDur)
-	{
-                //explicitDur will not work unless player implements exec
-				//TODO: All areas that don't define an end should
-				//have the same end defined by explicitDur. This seens
-				//to be ignored here
-		if(this.player.exec)
-                    this.player.exec(this.explicitDur,$.proxy(function() {
-                         this.stop();
-                    },this));
-	}
-	*/
-	
+		
 	// Bind events
 	this.bindEvents();
 	// Saves the media player using jQuery data function
